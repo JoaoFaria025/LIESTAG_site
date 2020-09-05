@@ -26,7 +26,7 @@ a:hover{font-weight: 550;}
 #btn-palco{width: 200px;padding: 5px;}
 .palco_2{padding-top: 30px;}
 .eventos{background-color: yellow; color:black;width: 600px;border-radius: 25px;padding-top:12px;padding-bottom:12px;font-size:30px}
-
+#iframe{width:480; height:270;}
 /*SECTION 4 - CONTATO*/
 
 /*SECTION 5 - RODAPÉ*/
@@ -69,21 +69,25 @@ a:hover{font-weight: 550;}
 /*SECTION 1.1 - PALCO*/
 @media screen and (min-width:320px){
     #btn-palco{width: 200px;padding: 5px;}
+    #iframe{width:250; height:150;}
     .palco_2{padding-top: 30px;}
-    .eventos{background-color: yellow; color:black;width: 400px;border-radius: 25px;padding-top:8px;padding-bottom:12px;font-size:22px}
+    .eventos{background-color: yellow; color:black;width: 200px;border-radius: 25px;padding-top:8px;padding-bottom:12px;font-size:15px}
     
 }
 @media screen and (min-width:375px){
     #btn-palco{width: 200px;padding: 5px;}
+    #iframe{width:250; height:150;}
     .palco_2{padding-top: 30px;}
     .eventos{background-color: yellow; color:black;width: 450px;border-radius: 25px;padding-top:8px;padding-bottom:12px;font-size:22px}
 }
 @media screen and (min-width:768px){
+    #iframe{width:480; height:280;}
     #btn-palco{width: 200px;padding: 5px;}
     .palco_2{padding-top: 30px;}
     .eventos{background-color: yellow; color:black;width: 500px;border-radius: 25px;padding-top:8px;padding-bottom:12px;font-size:28px}
 }
 @media screen and (min-width:1300px){
+    #iframe{width:480; height:280;}
     #btn-palco{width: 200px;padding: 5px;}
     .palco_2{padding-top: 30px;}
     .eventos{background-color: yellow; color:black;width: 600px;border-radius: 25px;padding-top:12px;padding-bottom:12px;font-size:30px}
