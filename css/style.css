@@ -8,17 +8,25 @@ html {scroll-behavior: smooth;}
 /*LAYOUT*/
 .container-fluid{width: 100%; height:600px;color:white;}
 .palco{ background-color: black; padding-top:100px;}
+.palco_2{background-color:whitesmoke}
 .quemsomos{background-color:chocolate;}
 .servicos{ background-color: blueviolet;}
 .navbar{position:fixed;}
 
 /*SECTION NAV*/
 a:hover{font-weight: 550;}
+
 /*SECTION 1 - PALCO*/
 #frase_1_palco{color:white;font-size:80px;}
 #frase_2_palco{color:white;font-size:30px}
 #frase_3_palco{padding-left:35em;padding-top: 12px; color: yellow;font-size: 28px;}
 .apoio_1{width: 88px;padding: 8px;padding-top: 70px;padding-bottom: 15px;}
+
+/*SECTION 1.1 - PALCO*/
+#btn-palco{width: 200px;padding: 5px;}
+.palco_2{padding-top: 30px;}
+.eventos{background-color: yellow; color:black;width: 600px;border-radius: 25px;padding-top:12px;padding-bottom:12px;font-size:30px}
+
 /*SECTION 4 - CONTATO*/
 
 /*SECTION 5 - RODAPÉ*/
@@ -29,11 +37,8 @@ a:hover{font-weight: 550;}
 #logo-rodape{width:290px;}
 
 
-/*MEDIA TYPES
-
-
-*/
-/*SMALL DEVICES*/
+/* -------- MEDIA TYPES  -------- */
+/*SMALL DEVICES*/ /*SECTION 1 - PALCO*/
 @media screen and (min-width:320px){
     .palco{ background-color: black; padding-top:70px;}
     #frase_1_palco{color:white;font-size:60px;text-justify: center;}
@@ -61,3 +66,25 @@ a:hover{font-weight: 550;}
     #frase_3_palco{padding-left:35em;padding-top: 12px; color: yellow;font-size: 28px;}
     .apoio_1{width: 88px;padding: 8px;padding-top: 120px;padding-bottom: 15px;}
 }
+/*SECTION 1.1 - PALCO*/
+@media screen and (min-width:320px){
+    #btn-palco{width: 200px;padding: 5px;}
+    .palco_2{padding-top: 30px;}
+    .eventos{background-color: yellow; color:black;width: 400px;border-radius: 25px;padding-top:8px;padding-bottom:12px;font-size:22px}
+    
+}
+@media screen and (min-width:375px){
+    #btn-palco{width: 200px;padding: 5px;}
+    .palco_2{padding-top: 30px;}
+    .eventos{background-color: yellow; color:black;width: 450px;border-radius: 25px;padding-top:8px;padding-bottom:12px;font-size:22px}
+}
+@media screen and (min-width:768px){
+    #btn-palco{width: 200px;padding: 5px;}
+    .palco_2{padding-top: 30px;}
+    .eventos{background-color: yellow; color:black;width: 500px;border-radius: 25px;padding-top:8px;padding-bottom:12px;font-size:28px}
+}
+@media screen and (min-width:1300px){
+    #btn-palco{width: 200px;padding: 5px;}
+    .palco_2{padding-top: 30px;}
+    .eventos{background-color: yellow; color:black;width: 600px;border-radius: 25px;padding-top:12px;padding-bottom:12px;font-size:30px}
+    }
