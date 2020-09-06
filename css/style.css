@@ -2,32 +2,17 @@
 *{ border:none; outline:none; font-family: 'PT Sans', sans-serif;}
 a {text-decoration:none;}
 ul{list-style: none;}
-body{background-color: #ffffff;}
+body{background-color: black;}
 html {scroll-behavior: smooth;}
 
 /*LAYOUT*/
 .container-fluid{width: 100%; height:600px;color:white;}
-.palco{ background-color: black; padding-top:70px;}
-.palco_2{background-color:white;height: 400px;}
-.quemsomos{background-color:chocolate;}
-.servicos{ background-color: blueviolet;}
-.navbar{position:fixed;}
+.menu{font-size:22px;color: white; letter-spacing: 1.5px;font-weight: 600;}
 
 /*SECTION NAV*/
-a:hover{font-weight: 550;}
-
-/*SECTION 1 - PALCO*/
-#frase_1_palco{color:white;font-size:80px;}
-#frase_2_palco{color:white;font-size:30px}
-#frase_3_palco{padding-left:35em;padding-top: 12px; color: yellow;font-size: 28px;}
-.apoio_1{width: 88px;padding: 8px;padding-top: 70px;padding-bottom: 15px;}
-
-/*SECTION 1.1 - PALCO*/
-#btn-palco{width: 200px;padding: 5px;}
-.palco_2{padding-top: 30px;}
-.eventos{background-color: yellow; color:black;width: 600px;border-radius: 25px;padding-top:12px;padding-bottom:12px;font-size:30px}
-#iframe{width:480; height:270;}
-/*SECTION 4 - CONTATO*/
+#edit{background-color: black;padding: 15px;}
+#botao{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 160px;}
+.contato-nav{ margin-left: 150px;}
 
 /*SECTION 5 - RODAPÉ*/
 .footer{background-color: black; color:white;}
@@ -79,32 +64,4 @@ a:hover{font-weight: 550;}
     #frase_2_palco{color:white;font-size:30px}
     #frase_3_palco{padding-left:35em;padding-top: 12px; color: yellow;font-size: 28px;}
     .apoio_1{width: 88px;padding: 8px;padding-top: 120px;padding-bottom: 15px;}
-}
-/*SECTION 1.1 - PALCO*/
-@media screen and (min-width:100px){
-    #btn-palco{width: 200px;padding: 5px;}
-    #iframe{width:250; height:150;}
-    .palco_2{padding-top: 30px;}
-    .eventos{background-color: yellow; color:black;width: 100px;border-radius: 25px;padding-top:8px;padding-bottom:12px;font-size:15px}
-    
-}
-@media screen and (min-width:360px){
-    #btn-palco{width: 100px;padding: 5px;}
-    #iframe{width:250; height:150;}
-    .palco_2{padding-top: 30px;}
-    .eventos{background-color: yellow; color:black;width: 300px;border-radius: 25px;padding-top:8px;padding-bottom:12px;font-size:18px}
-    
-}
-@media screen and (min-width:560px){
-    #btn-palco{width: 200px;padding: 5px;}
-    #iframe{width:250; height:150;}
-    .palco_2{padding-top: 30px;}
-    .eventos{background-color: yellow; color:black;width:400px;border-radius: 25px;padding-top:8px;padding-bottom:12px;font-size:22px}
-    
-}
-@media screen and (min-width:1300px){
-    #btn-palco{width: 200px;padding: 5px;}
-    .palco_2{padding-top: 30px;}
-    .eventos{background-color: yellow; color:black;width: 600px;border-radius: 25px;padding-top:12px;padding-bottom:12px;font-size:30px}
-    #iframe{width:480; height:270;}
 }
