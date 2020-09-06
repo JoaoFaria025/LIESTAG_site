@@ -15,10 +15,10 @@ html {scroll-behavior: smooth;}
 .contato-nav{ margin-left: 150px;}
 
 /*SECTION 1 - BANNER*/
-.cont_1{background-color:black;padding-top: 280px;height: 650px;}
-#title_banner{font-size: 61px;letter-spacing: 7px;}
-#subtitle_banner{font-size: 31px;margin-left: 27em;}
-#info_banner{font-size:28px;padding-top: 90px;}
+.cont_1{background-color:black;padding-top: 320px;height: 850px;}
+#title_banner{font-size: 66px;letter-spacing: 7px;}
+#subtitle_banner{font-size: 33px;margin-left: 27em;}
+#info_banner{font-size:38px;padding-top: 175px;}
 #arrow{width: 80px;;padding-top: 15px;}
 #arrow_1{margin-left: 11em;}
 #sociais{width:60px;padding-top: 15px;float:right;}
@@ -26,41 +26,126 @@ html {scroll-behavior: smooth;}
 
 /*SECTION 2 - QUEM SOMOS */
 .cont_2{background-color:black;height: 650px;padding-top:150px;margin-top: 15px;}
-#title_quemsomos{font-size:58px;}
-#subtitle_quemsomos{font-size: 28px;}
+#title_quemsomos{font-size:66px;}
+#subtitle_quemsomos{font-size: 33px;text-align: justify;letter-spacing: 2;}
+.quemsomos{text-justify: auto;padding-left:30em;}
+/*.hr_quemsomos{display: flex; background-color: white; height: 25px; width: 50px;}*/
 
-/* -------- MEDIA TYPES  -------- */
-/*SMALL DEVICES*/ /*SECTION 1 - PALCO*/
+
+
+/*
+ -------- MEDIA TYPES  -------- 
+*/
+/*SMALL DEVICES*/ /*SECTION 1 - NAV*/
 @media screen and (min-width:120px){
 #edit{background-color: black;padding: 15px;}
 #botao{font-size:19px;color:black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 180px;}
 .contato-nav{margin-left:0px;margin-top: 15px;}
 
+/*SECTION 1 - BANNER*/
+.cont_1{background-color:black;padding-top: 180px;height: 620px;}
+#title_banner{font-size: 36px;letter-spacing: 7px;}
+#subtitle_banner{font-size: 20px;margin-left: 1em;padding-top: 5px;}
+#info_banner{font-size:28px;padding-top: 115px;}
+#arrow{width: 50px;;padding-top: 15px;}
+#arrow_1{margin-left: 0em;}
+#sociais{display:none;width:60px;padding-top: 15px;float:right;}
+#cont-arrow{display: inline;}
+
 }
+
+
 @media screen and (min-width:375px){
 #edit{background-color: black;padding: 15px;}
 #botao{font-size:19px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 180px;}
 .contato-nav{ margin-top:15px;}
+
+
+/*SECTION 1 - BANNER*/
+.cont_1{background-color:black;padding-top: 180px;height: 620px;}
+#title_banner{font-size: 36px;letter-spacing: 7px;}
+#subtitle_banner{font-size: 20px;margin-left: 1em;padding-top: 5px;}
+#info_banner{font-size:28px;padding-top: 115px;}
+#arrow{width: 50px;;padding-top: 15px;}
+#arrow_1{margin-left: 0em;}
+#sociais{display:none;width:60px;padding-top: 15px;float:right;}
+#cont-arrow{display: inline;}
  
 }
+
+
 @media screen and (min-width:414px){
 #edit{background-color: black;padding: 15px;}
 #botao{font-size:19px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 180px;}
 .contato-nav{ margin-left:0px;margin-top: 15px;}
 
+/*SECTION 1 - BANNER*/
+.cont_1{background-color:black;padding-top: 180px;height: 610px;}
+#title_banner{font-size: 36px;letter-spacing: 7px;}
+#subtitle_banner{font-size: 20px;margin-left: 1em;padding-top: 5px;}
+#info_banner{font-size:28px;padding-top: 105px;}
+#arrow{width: 50px;;padding-top: 15px;}
+#arrow_1{margin-left: 0em;}
+#sociais{display:none;width:60px;padding-top: 15px;float:right;}
+#cont-arrow{display: inline;}
 }
+
 @media screen and (min-width:550px){
 #edit{background-color: black;padding: 15px;}
 #botao{font-size:19px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 180px;}
 .contato-nav{margin-left:0px;margin-top: 15px;}
+
+/*SECTION 1 - BANNER*/
+.cont_1{background-color:black;padding-top: 180px;height: 610px;}
+#title_banner{font-size: 38px;letter-spacing: 7px;}
+#subtitle_banner{font-size: 23px;margin-left: 1em;padding-top: 5px;}
+#info_banner{font-size:28px;padding-top: 105px;}
+#arrow{width: 50px;;padding-top: 15px;}
+#arrow_1{margin-left: 0em;}
+#sociais{display:none;width:60px;padding-top: 15px;float:right;}
+#cont-arrow{display: inline;}
 }
+@media screen and (min-width:700px){
+    /*SECTION 1 - BANNER*/
+    .cont_1{background-color:black;padding-top: 180px;height: 570px;}
+    #title_banner{font-size: 38px;letter-spacing: 7px;}
+    #subtitle_banner{font-size: 23px;margin-left: 1em;padding-top: 5px;}
+    #info_banner{font-size:28px;padding-top: 90px;}
+    #arrow{width: 50px;;padding-top: 15px;}
+    #arrow_1{margin-left: 0em;}
+    #sociais{display:none;width:60px;padding-top: 15px;float:right;}
+    #cont-arrow{display: inline;}
+    }
 @media screen and (min-width:990px){
     #edit{background-color: black;padding: 0px;}
     #botao{font-size:17px;color: black;letter-spacing: 1px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 120px;}
     .contato-nav{margin-left:0px;margin-top: 2px;}
+
+    /*SECTION 1 - BANNER*/
+    .cont_1{background-color:black;padding-top: 180px;height: 550px;}
+    #title_banner{font-size: 38px;letter-spacing: 7px;}
+    #subtitle_banner{font-size: 23px;margin-left: 1em;padding-top: 5px;}
+    #info_banner{font-size:28px;padding-top: 105px;}
+    #arrow{width: 50px;;padding-top: 15px;}
+    #arrow_1{margin-left: 0em;}
+    #sociais{width:60px;padding-top: 15px;float:right;}
+    #cont-arrow{display: inline;}
 }
+
+
 @media screen and (min-width:1200px){
-    #edit{background-color: black;padding: 25px;}
+#edit{background-color: black;padding: 25px;}
 #botao{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 160px;}
 .contato-nav{ margin-left: 150px;}
+
+/*SECTION 1 - BANNER*/
+.cont_1{background-color:black;padding-top: 320px;height: 850px;}
+#title_banner{font-size: 66px;letter-spacing: 7px;}
+#subtitle_banner{font-size: 33px;margin-left: 27em;}
+#info_banner{font-size:38px;padding-top: 175px;}
+#arrow{width: 80px;;padding-top: 15px;}
+#arrow_1{margin-left: 1em;}
+#sociais{width:60px;padding-top: 15px;float:right; padding-right:11em;}
 }
+
+
