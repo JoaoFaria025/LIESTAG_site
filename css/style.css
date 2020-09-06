@@ -14,13 +14,20 @@ html {scroll-behavior: smooth;}
 #botao{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 160px;}
 .contato-nav{ margin-left: 150px;}
 
-/*SECTION 5 - RODAPÉ*/
-.footer{background-color: black; color:white;}
-.copy{font-size:17px;font-weight: 500;padding:10px;}
-.container-logo{padding: 20px;}
-.sociais{padding: 10px;}
-#logo-rodape{width:290px;}
+/*SECTION 1 - BANNER*/
+.cont_1{background-color:black;padding-top: 280px;height: 650px;}
+#title_banner{font-size: 61px;letter-spacing: 7px;}
+#subtitle_banner{font-size: 31px;margin-left: 27em;}
+#info_banner{font-size:28px;padding-top: 90px;}
+#arrow{width: 80px;;padding-top: 15px;}
+#arrow_1{margin-left: 11em;}
+#sociais{width:60px;padding-top: 15px;float:right;}
+#cont-arrow{display: inline;}
 
+/*SECTION 2 - QUEM SOMOS */
+.cont_2{background-color:black;height: 650px;padding-top:150px;margin-top: 15px;}
+#title_quemsomos{font-size:58px;}
+#subtitle_quemsomos{font-size: 28px;}
 
 /* -------- MEDIA TYPES  -------- */
 /*SMALL DEVICES*/ /*SECTION 1 - PALCO*/
@@ -53,7 +60,7 @@ html {scroll-behavior: smooth;}
     .contato-nav{margin-left:0px;margin-top: 2px;}
 }
 @media screen and (min-width:1200px){
-    #edit{background-color: black;padding: 15px;}
+    #edit{background-color: black;padding: 25px;}
 #botao{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 160px;}
 .contato-nav{ margin-left: 150px;}
 }
