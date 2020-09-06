@@ -18,114 +18,61 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body style="background-color: #ffffff;">
     <div class="container">
 
         <!--SECTION NAV -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white" id="edit">
+        <nav class="navbar fixed-top navbar-expand-lg " id="edit">
             <div class="container">
-                <a class="navbar-brand h1 mb-0" href="#"><img src="img/liestag_black (1).png" style="width: 170px;"alt="LIESTAG LOGO"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <a class="navbar-brand h1 mb-0" href="#"><img src="img/liestag_white (2).png" style="width: 170px;"alt="LIESTAG LOGO" title="LIESTAG - Unicamp Limeira"></a>
+                <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarSite">
                         <span class="navbar-toggler-icon"></span>
-                    </button>
+                </button>
             <div class="collapse navbar-collapse" id="navbarSite">
                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">
+                    <span class="menu">HOME</span></a></li>  
                     <li class="nav-item"><a class="nav-link" href="#quemsomos">
-                    <span style="color:#000000; font-size:22px;">Quem somos</span></a></li>  
+                    <span class="menu">QUEM SOMOS?</span></a></li>  
                     <li class="nav-item"><a class="nav-link" href="#servicos">
-                    <span style="color:black; font-size:22px;">Serviços</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contato">
-                    <span style="color:black; font-size:22px;">Contato</span></a></li>
+                    <span class="menu">SERVIÇOS</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><!--CRIAR SITE EM CONST-->
+                    <span class="menu">LIGAFLIX</span></a></li>
+                    <div class="contato-nav">
+                        <button type="button" class="btn btn-warning text-outline"  href="#contato" id="botao">CONTATO</button>
+                    </div>
+                    
                 </ul>
             </div>
             </div>
         </nav>
         
     </div>
-    <!--SECTION 1 - BANNER -->
-    <div class="container-fluid palco text-center">
-        <div class="palco">
-
-            <h1 id="frase_1_palco"><b>Capacitando o profissional do futuro</b><span style="color:white;color:yellow">.</span></h1><br>
-            <h5 id="frase_2_palco">dentro da nossa casa a universidade<span style="color:white;color:yellow">.</span></h5>
-            <h5 id="frase_3_palco">-vamos nessa?</h5>
-    
-            <span>
-                <a href=""><img src="img/logo.png" alt="Liga de Estágio Unicamp Limeira" title="Liga de Estágio Unicamp Limeira" class="apoio_1"></a>
-            </span>
-            <span>
-                <a href=""><img src="img/unicamp.png" alt="Unicamp | FT " title="Unicamp | FT " class="apoio_1"></a>
-            </span>
-           
-            
-        </div>
-    </div>
 
     <!--SECTION 1.1 - PALCO -->
     <div class="container-fluid palco_2 text-center">
         <div class="palco_2">
-            <center>
-                <div class="eventos"><b>Bora participar de nossos eventos?</b></div><br>
-            </center>
-            <iframe src="https://giphy.com/embed/3o6Zt3NI3hLqP6m0YE"  frameBorder="0" class="giphy-embed" id="iframe"></iframe><br><br>
-            <a  class="btn btn-secondary btn-lg " tabindex="-1" role="button" aria-disabled="true">Acessar Palco</a><!--botar href-->
-        </div>
+          </div>
     </div>
 
     <!--SECTION 2 - QUEM SOMOS -->
     <div class="container-fluid quemsomos" id="quemsomos">
         <div class="quemsomos">
-            <br>
-            quem somos
+        
         </div>
     </div>
     <!--SECTION 3 - SERVIÇOS -->
     <div class="container-fluid servicos" id="servicos">
         <div class="servicos">
-            <br>
-            serviços
+        
         </div>
     </div>
     <!--SECTION 4 - CONTATO -->
   <div class="container-fluid contato" id="contato">
-                <div class="texto-contato ">
-           
-                    <center>
-                        <h1>Entre em <mark style="background-color: yellow; border-radius:2px;">contato</mark> conosco pelo formulário!</h1>
-                        <br>
-                        <h4>Mande de verdade, somos legais. Respondemos à todos!</h4>
-                    </center>
-                    </div>
-                                
-                   <div class="forms ">
-                     <form action="" id="form">
-                            <div class="form">
-                            <div class="grupo">
-                                <input type="text" id="name" required><span class="barra"></span>
-                                <label for="">Nome</label>
-                            </div>
-                            <div class="grupo">
-                                <input type="email" id="name" required><span class="barra"></span>
-                                <label for="">Email</label>
-                            </div>
-                            <div class="grupo">
-                                <label for="">Digite sua mensagem abaixo:</label>
-                                <BR>
-                                    <BR>
-                                <textarea id="story" name="story" rows="5" cols="15" required >
-                                </textarea>
-                                
-                            </div>
-                            <center> <button type="submit" id="form-btn"><b>ENVIAR MENSAGEM </b><span class="spinner-grow spinner-grow-sm"></span>  </button></center>
-                            </div>
-                        
-                    </form>
-                </div>
-                      
-                </div>
-                
-            </div>
-        </div>
+        <div class="texto-contato ">
+                   
+        </div>        
+  </div>
 
     <!--SECTION 5 - RODAPÉ -->
     <footer class="footer">
@@ -133,16 +80,7 @@
             <div class="container-logo">
                <img src="img/liestag_white (2).png" alt="" id="logo-rodape">
             </div> 
-            <div class="sociais">
-                <span>
-                    <a href=""><img src="img/face.png" alt=""></a>
-                </span>
-                <span>
-                    <a href=""><img src="img/face.png" alt=""></a>
-                </span>
-                <span>
-                    <a href=""><img src="img/face.png" alt=""></a>
-                </span>
+  
             </div>
             <div class="copy">
                    © LIESTAG - Unicamp Limera 2020 - Todos os direitos reservados | email..
