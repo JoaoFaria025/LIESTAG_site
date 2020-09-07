@@ -25,6 +25,7 @@ html {scroll-behavior: smooth;}
 #cont-arrow{display: inline;}
 
 /*SECTION 2 - QUEM SOMOS */
+#quemsomos{background-color: red;height:2000px;}
     /*TEXTO*/
 /*HR*/
 #aahr{display:flex;}
@@ -32,14 +33,45 @@ html {scroll-behavior: smooth;}
 .ahr{width:80px;height: 5px;background-color:white;margin-left: -200px;margin-top: 35px;}
 #abhr{display:flex;}
 #achr{display: flex;}
-
+#adhr{display:flex;}
 
 .cont_2{background-color:black;height: 650px;padding-top:150px;margin-top: 15px; text-align: left;}
 #title_quemsomos{font-size:62px;}
 #subtitle_quemsomos{font-size: 30px;text-align: justify;letter-spacing: 2;}
 .quemsomos{text-justify: auto;}
 
+/*FOTO - PARTICIPANTES*/
+#title_quemsomos_1{font-size:58px;padding-bottom: 25px;}
+#fig{font-size:20px;color: white;}
+.quemsomos_1{text-justify: auto;padding-top: 220px;}
+.rounded-circle{width: 200px;padding: 17px;}.img_participantes{padding-bottom: 220px;}
+   
+/*MISÃO VISAO E VALORES*/
+#title_quemsomos_2{font-size:58px;padding-bottom: 25px;}
 
+.card-mvv{background-color: white;width: 400px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left: 55px;margin-top:180px;}
+.card-mvv:hover{border:solid yellow;}
+.title_card{color:black;font-size:32px;letter-spacing: 1px;padding: 15px;}
+.header_card{color:black;font-size:19px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
+   
+.card-mvv_1{background-color: white;width: 400px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:185px;margin-top:60px;}
+.card-mvv_1:hover{border:solid yellow;}
+   
+.card-mvv_2{background-color: white;width: 400px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:290px;margin-top:180px;}
+.card-mvv_2:hover{border:solid yellow;}
+
+
+/*SECTION 3 - SERVIÇOS */
+#title_quemsomos_3{font-size:58px;padding-bottom: 25px;}
+.serviços{text-justify: auto;}
+.cont_3{background-color:grey;height: 650px;padding-top:150px;margin-top: 15px; text-align: left;}
+
+
+/* FOOTER */
+.container-footer{margin-bottom: 30px;background-color:salmon;}
+#footer_logo{width:260px;padding: 11px;}
+#subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 10px;}
+/*
 
 /*
  -------- MEDIA TYPES  -------- 
@@ -437,6 +469,7 @@ html {scroll-behavior: smooth;}
 .card-mvv_1{background-color: white;width: 335px;height:250px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:120px;margin-top:50px;}
 .card-mvv_1:hover{border:solid yellow;}
               
+
 .card-mvv_2{background-color: white;width: 335px;height:250px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:250px;margin-top:120px;}
 .card-mvv_2:hover{border:solid yellow;}
 }
@@ -459,8 +492,7 @@ html {scroll-behavior: smooth;}
 }
 
 @media screen and (min-width:1800px){
-      
-    /*FOTO - PARTICIPANTES*/
+         /*FOTO - PARTICIPANTES*/
     #title_quemsomos_1{font-size:58px;padding-bottom: 25px;}
     #fig{font-size:20px;color: white;}
     .quemsomos_1{text-justify: auto;padding-top: 220px;}
@@ -469,6 +501,7 @@ html {scroll-behavior: smooth;}
     
          /*MISÃO VISAO E VALORES*/
     #title_quemsomos_2{font-size:58px;padding-bottom: 25px;}
+
     .card-mvv{background-color: white;width: 400px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left: 55px;margin-top:180px;}
     .card-mvv:hover{border:solid yellow;}
     .title_card{color:black;font-size:32px;letter-spacing: 1px;padding: 15px;}
@@ -480,5 +513,6 @@ html {scroll-behavior: smooth;}
     .card-mvv_2{background-color: white;width: 400px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:290px;margin-top:180px;}
     .card-mvv_2:hover{border:solid yellow;}
 }
+ 
 
 
