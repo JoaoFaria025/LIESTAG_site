@@ -25,7 +25,9 @@ html {scroll-behavior: smooth;}
 #cont-arrow{display: inline;}
 
 /*SECTION 2 - QUEM SOMOS */
+
 #quemsomos{background-color: ;height:2000px;}
+
     /*TEXTO*/
 /*HR*/
 #aahr{display:flex;}
@@ -33,7 +35,7 @@ html {scroll-behavior: smooth;}
 .ahr{width:80px;height: 5px;background-color:white;margin-left: -200px;margin-top: 35px;}
 #abhr{display:flex;}
 #achr{display: flex;}
-#adhr{display:flex;}
+
 
 .cont_2{background-color:black;height: 650px;padding-top:150px;margin-top: 15px; text-align: left;}
 #title_quemsomos{font-size:62px;}
@@ -99,6 +101,7 @@ textarea {
    	box-shadow: none;
 }
 
+
 .js-hide-label {
 	opacity: 0; 	
 }
@@ -112,6 +115,7 @@ textarea {
 #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;}
 
 /*
+
 
 /*
  -------- MEDIA TYPES  -------- 
@@ -523,7 +527,6 @@ textarea {
 .card-mvv_1{background-color: white;width: 335px;height:250px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:120px;margin-top:50px;}
 .card-mvv_1:hover{border:solid yellow;}
               
-
 .card-mvv_2{background-color: white;width: 335px;height:250px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:250px;margin-top:120px;}
 .card-mvv_2:hover{border:solid yellow;}
 }
@@ -548,10 +551,15 @@ textarea {
 }
 
 @media screen and (min-width:1800px){
+
 /*CONTAINER QUEM SOMOS*/      
 #quemsomos{background-color: black;height:2020px;} 
 #sociais{width:60px;padding-top: 15px;float:right;}
          /*FOTO - PARTICIPANTES*/
+
+      
+    /*FOTO - PARTICIPANTES*/
+
     #title_quemsomos_1{font-size:58px;padding-bottom: 25px;}
     #fig{font-size:20px;color: white;}
     .quemsomos_1{text-justify: auto;padding-top: 220px;}
@@ -560,7 +568,6 @@ textarea {
     
          /*MISÃO VISAO E VALORES*/
     #title_quemsomos_2{font-size:58px;padding-bottom: 25px;}
-
     .card-mvv{background-color: white;width: 400px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left: 55px;margin-top:180px;}
     .card-mvv:hover{border:solid yellow;}
     .title_card{color:black;font-size:32px;letter-spacing: 1px;padding: 15px;}
@@ -572,6 +579,5 @@ textarea {
     .card-mvv_2{background-color: white;width: 400px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:290px;margin-top:180px;}
     .card-mvv_2:hover{border:solid yellow;}
 }
- 
 
 
