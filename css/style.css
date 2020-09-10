@@ -8,13 +8,15 @@ html {scroll-behavior: smooth;}
 /*LAYOUT*/
 .container-fluid{width: 100%; height:600px;color:white;}
 .menu{font-size:22px;color: white; letter-spacing: 1.5px;font-weight: 600;}
+.menu:hover{font-size:22px;color: white; letter-spacing: 1.5px;font-weight: 600;}
 
 /*SECTION NAV*/
 #edit{background-color: black;padding: 15px;}
 #botao{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 160px;}
 .contato-nav{ margin-left: 150px;}
 
-a.active{color:yellow;}
+.menu.active{color:yellow;}
+
 
 /*SECTION 1 - BANNER*/
 .cont_1{background-color:black;padding-top: 320px;height: 850px;}
