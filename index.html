@@ -16,9 +16,10 @@
     
     <!--FONT-->
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="javascrip" href="js/script.js">
 
 </head>
-<body style="background-color: black;">
+<body style="background-color: black;" data-spy="scroll" data-target=".navbar" data-offset="50">
     <div class="container">
 
         <!--SECTION NAV -->
@@ -30,23 +31,22 @@
                 </button>
             <div class="collapse navbar-collapse" id="navbarSite">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">
+                    <li class="nav-item"><a class="nav-link active" href="#">
                     <span class="menu">HOME</span></a></li>  
-                    <li class="nav-item"><a class="nav-link" href="#quemsomos">
+                    <li class="nav-item"><a class="nav-link active" href="#quemsomos">
                     <span class="menu">QUEM SOMOS?</span></a></li>  
-                    <li class="nav-item"><a class="nav-link" href="#servicos">
+                    <li class="nav-item"><a class="nav-link active" href="#servicos">
                     <span class="menu">SERVIÇOS</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><!--CRIAR SITE EM CONST-->
+                    <li class="nav-item"><a class="nav-link active" href="ligaflix.html" target="_blank" ><!--CRIAR SITE EM CONST-->
                     <span class="menu">LIGAFLIX</span></a></li>
                     <div class="contato-nav">
-                        <button type="button" class="btn btn-warning text-outline"  href="#contato" id="botao">CONTATO</button>
+                         <a href="#contato" class="btn btn-info" role="button" id="botao"><b>CONTATO</b></a>
                     </div>
-                    
                 </ul>
             </div>
             </div>
-        </nav>
-        
+          </nav>
+          <img src="https://img.icons8.com/nolan/48/instagram-new.png"/>
     </div>
 
     <!--SECTION 1 - BANNER -->
@@ -58,12 +58,17 @@
                 <h5 style="color:yellow" id="info_banner">Let´s bora?</h5>
                 <div class="cont-arrow">
                     <span id="arrow_1"><a href="#quemsomos"><img src="img/arrow.svg" id="arrow"></a></span>
-                    <span><a href="#"><img src="img/face.png" id="sociais"></a></span>
-                    <span><a href="#"><img src="img/face.png" id="sociais"></a></span>
-                    <span><a href="#"><img src="img/face.png" id="sociais"></a></span>
+                    <span><a href="https://www.linkedin.com/company/liestag/"><img src="https://img.icons8.com/nolan/64/linkedin.png" id="sociaiss"></a></span>
+                    <span><a href="https://www.instagram.com/liestag/"><img src="https://img.icons8.com/nolan/48/instagram-new.png" id="sociaiss"></a></span>
+                    <span><a href="https://www.facebook.com/liestag"><img src="https://img.icons8.com/nolan/64/facebook.png" id="sociaiss"></a></span>
                 </div>
             </center>
+
+            
+          </div>
+
                 </div>
+
     </div>
     <!--SECTION 2 - QUEM SOMOS -->
         
@@ -159,6 +164,105 @@
                         </span>  
                          </div>
                 </div>
+
+                <!--SECTION 3 - SERVIÇOS -->
+                <div class="container-fluid cont_3" id="servicos">
+                  <!-- TEXTO -->
+                  <div class="servicos">
+                    <!--HR -->
+                      <div id="aahr">
+                        <div class="ahr"></div>
+                        <div class="txt_ahr"><h2 id="title_quemsomos"><b>Nossos compromissos com você<span style="color:yellow">.</span></b></h2></div>
+                      </div>
+
+                      <div class="row">
+                        <span class="col col-xl-3 col-sm-12">
+                          <div class="servicos-card um">
+                            <h2 class="title-servicos"><b>Divulgação de vagas</b><span style="color:yellow">.</span></h2>
+                            <h6 class="subtitle-servicos">Sabe aquelas vagas dos sonhos? Vamos divulgar todas.</h6>
+                          </div>
+                        </span>
+                        <span class="col col-xl-3 col-sm-12">
+                          <div class="servicos-card dois">
+                            <h2 class="title-servicos"><b>Evento e Workshops</b><span style="color:yellow">.</span></h2>
+                            <h6 class="subtitle-servicos">Aguarde pelos eventos e treinamentos mais loucos de Limeira.</h6>
+                          </div>
+                        </span>
+                        <span class="col col-xl-3 col-sm-12">
+                          <div class="servicos-card tres">
+                            <h2 class="title-servicos"><b>Crescimento Profissional</b><span style="color:yellow">.</span></h2>
+                            <h6 class="subtitle-servicos">Venha crescer conosco e desenvolver o grande profissional que há dentro de você.</h6>
+                          </div>
+                        </span>
+
+                      </div>
+                  </div>
+                </div>
+                  <!--SECTION 4 - CONTATO -->
+                <div class="container-fluid contato" id="contato">
+                  <div class="texto-contato">
+                      <div class="row">
+                        <span class="col col-xl-5 col-sm-12">
+                          <h2 class="title-contato"><b>Solta o verbo<span style="color:yellow">.</span></b></h2>
+                          <h6 class="subtitle-contato">Mande a sua mensagem, somos legais. Respondemos à todos!</h6><br>
+                          <h2 class="title-contato"><b>Nossa batcaverna<span style="color:yellow">.</span></b></h2>
+                          <h6 class="subtitle-contato">R. Paschoal Marmo, 1888 - Jardim Nova Italia, Limeira - SP, 13484-332</h6>
+                        </span>
+                        <!--FORMS CONTATO -->
+                      
+                        
+                            <div class="container-formulario">
+                              <div class="row">
+                                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" id="title-forms">                        
+                                    <h2><b>Entre em contato:</b></h2>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-12 col-xs-offset-3">
+                                      <form id="contact-form" class="form" action="#" method="POST" role="form">
+                                          <div class="form-group">
+                                              <label class="form-label" for="name">Nome:</label>
+                                              <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome aqui" tabindex="1" required>
+                                          </div>                            
+                                          <div class="form-group">
+                                              <label class="form-label" for="email">Email></label>
+                                              <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email aqui" tabindex="2" required>
+                                          </div>                            
+                                                                    
+                                          <div class="form-group">
+                                              <label class="form-label" for="message">Mensagem</label>
+                                              <textarea rows="5" cols="50" name="message" class="form-control" id="message" placeholder="Mensagem..." tabindex="4" required></textarea>                                 
+                                          </div>
+                                          <div class="text-center">
+                                              <button type="submit" class="btn btn-start-order" id="btn-form"><b>ENVIAR</b></button>
+                                          </div>
+                                      </form>
+                                  </div>
+                              </div>
+                            </div>
+                         
+          
+                       
+                      </div>   
+                  </div>        
+              </div>
+              <!--FOOTER -->
+              <footer>
+                <div class="container-footer">
+                  <center>
+                    <img src="img/liestag_white (2).png" alt="" id="footer_logo">
+                    <h6 id="subtitle_footer">Feito com carinho. Para você. Para todos.💛</h6>
+                    <span><a href="#"><img src="https://img.icons8.com/nolan/64/linkedin.png" id="sociaiss_footer"></a></span>
+                    <span><a href="#"><img src="https://img.icons8.com/nolan/48/instagram-new.png" id="sociaiss_footer"></a></span>
+                    <span><a href="#"><img src="https://img.icons8.com/nolan/64/facebook.png" id="sociaiss_footer"></a></span>
+                  </div>
+                  </center>
+                </div>
+              </footer>
+          </div>
+      </div>
+  
+
           </div>
       </div>
       <br>
@@ -184,9 +288,11 @@
         </div>        
   </div>
 
+
     <!--BS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

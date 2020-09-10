@@ -25,6 +25,9 @@ html {scroll-behavior: smooth;}
 #cont-arrow{display: inline;}
 
 /*SECTION 2 - QUEM SOMOS */
+
+#quemsomos{background-color: ;height:2000px;}
+
     /*TEXTO*/
 /*HR*/
 #aahr{display:flex;}
@@ -37,8 +40,81 @@ html {scroll-behavior: smooth;}
 .cont_2{background-color:black;height: 650px;padding-top:150px;margin-top: 15px; text-align: left;}
 #title_quemsomos{font-size:62px;}
 #subtitle_quemsomos{font-size: 30px;text-align: justify;letter-spacing: 2;}
-.quemsomos{text-justify: auto;}
+.quemsomos{text-justify: auto;background-color:;}
 
+/*FOTO - PARTICIPANTES*/
+#title_quemsomos_1{font-size:58px;padding-bottom: 25px;}
+#fig{font-size:20px;color: white;}
+.quemsomos_1{text-justify: auto;padding-top: 220px;}
+.rounded-circle{width: 200px;padding: 17px;}.img_participantes{padding-bottom: 220px;}
+   
+/*MISÃO VISAO E VALORES*/
+#title_quemsomos_2{font-size:58px;padding-bottom: 25px;}
+
+.card-mvv{background-color: white;width: 400px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left: 55px;margin-top:180px;}
+.card-mvv:hover{border:solid yellow;}
+.title_card{color:black;font-size:32px;letter-spacing: 1px;padding: 15px;}
+.header_card{color:black;font-size:19px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
+   
+.card-mvv_1{background-color: white;width: 400px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:185px;margin-top:60px;}
+.card-mvv_1:hover{border:solid yellow;}
+   
+.card-mvv_2{background-color: white;width: 400px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:290px;margin-top:180px;}
+.card-mvv_2:hover{border:solid yellow;}
+
+
+/*SECTION 3 - SERVIÇOS */
+#servicos{background-color:;margin-bottom: 80px;}
+.title-servicos{font-size:38px;padding-bottom:15px;letter-spacing: 1px;}
+.subtitle-servicos{font-size:25px;}
+.cont_3{background-color:;height: 650px;padding-top:150px;margin-top: 15px; text-align: left;}
+.servicos{text-justify: auto;background-color:;}
+.servicos-card{background-color:;margin:150px;width:455px;height:210px;}
+.um{margin-left:200px;}
+.dois{margin-left:250px;}
+.tres{margin-left:300px;}
+
+/*SECTION 4 - CONTATO */
+.title-contato{font-size:45px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;}
+.subtitle-contato{font-size:28px;text-align:center;letter-spacing: 1.5px;}
+.container-formulario{margin-left: 250px;background-color:black;width:550px; padding: 20px;border: 1px solid white; border-radius: 25px;}
+#contato{background-color: ;height: 500px;margin-bottom: 50px;}
+#title-forms{color:white;}
+#btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
+textarea {
+	resize: none;
+}
+.form-label {
+	font-size: px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+
+
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+	color: #999 
+}
+
+/* FOOTER */
+.container-footer{margin-bottom: 30px;background-color:;}
+#footer_logo{width:260px;padding: 11px;}
+#subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;}
+
+/*
 
 
 /*
@@ -281,6 +357,8 @@ html {scroll-behavior: smooth;}
   }  
  
 @media screen and (min-width:990px){
+/*CONTAINER QUEM SOMOS*/      
+#quemsomos{background-color: red;height:2800px;} 
 /*SECTION NAV*/
 #edit{background-color: black;padding: 0px;}
 #botao{font-size:17px;color: black;letter-spacing: 1px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 120px;}
@@ -319,7 +397,10 @@ html {scroll-behavior: smooth;}
 .card-mvv_2{background-color: white;width: 450px;height:220px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:10%;margin-top:60px;}
 .card-mvv_2:hover{border:solid yellow;}
 }
-
+@media screen and (min-width:997px){
+/*CONTAINER QUEM SOMOS*/      
+#quemsomos{background-color: red;height:2400px;}     
+}
 @media screen and (max-width:1170px){
 #aahr{display:flex;}
 .txt_ahr{padding-left:0px;}
@@ -329,7 +410,8 @@ html {scroll-behavior: smooth;}
  }
 
  @media screen and (min-width:1140px){
-  
+/*CONTAINER QUEM SOMOS*/      
+#quemsomos{background-color: red;height:2400px;} 
 /*MISÃO VISAO E VALORES*/
 #title_quemsomos_2{font-size:58px;padding-bottom: 25px;}
 .card-mvv{background-color: white;width: 454px;height:270px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:20%;margin-top:50px;}
@@ -345,6 +427,8 @@ html {scroll-behavior: smooth;}
  }
 
  @media screen and (min-width:1171px){
+/*CONTAINER QUEM SOMOS*/      
+#quemsomos{background-color: red;height:2400px;} 
 /*MISÃO VISAO E VALORES*/
 #title_quemsomos_2{font-size:58px;padding-bottom: 25px;}
 .card-mvv{background-color: white;width: 405px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:20%;margin-top:50px;}
@@ -362,6 +446,8 @@ html {scroll-behavior: smooth;}
      
 
 @media screen and (min-width:1200px){
+/*CONTAINER QUEM SOMOS*/      
+#quemsomos{background-color: red;height:1890px;} 
 /*SECTION NAV*/
 #edit{background-color: black;padding: 25px;}
 #botao{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 160px;}
@@ -373,8 +459,10 @@ html {scroll-behavior: smooth;}
 #subtitle_banner{font-size: 33px;margin-left: 0em;}
 #info_banner{font-size:38px;padding-top: 175px;}
 #arrow{width: 80px;;padding-top: 15px;}
-#arrow_1{margin-left: 1em;}
-#sociais{width:60px;padding-top: 15px;float:right; padding-right:11em;}
+#arrow_1{margin-left: 7em;}
+#sociais{width:60px;padding-top: 15px;float:right; padding-right:0em;}
+#sociaiss{width:40px;padding-top: 15px;float:right; padding-right:0em;padding-left:5px;}
+#sociaiss_footer{width: 40px;padding-top:15px;}
 
 
 /*SECTION 2 - QUEM SOMOS */
@@ -410,7 +498,8 @@ html {scroll-behavior: smooth;}
 
 
   @media screen and (min-width:1300px){
-      
+ /*CONTAINER QUEM SOMOS*/      
+#quemsomos{background-color: red;height:1800px;}      
  /*MISÃO VISAO E VALORES*/
  #title_quemsomos_2{font-size:58px;padding-bottom: 25px;}
  .card-mvv{background-color: white;width: 335px;height:250px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left: 0px;margin-top:120px;}
@@ -426,7 +515,8 @@ html {scroll-behavior: smooth;}
   }
  
   @media screen and (min-width:1400px){
-      
+/*CONTAINER QUEM SOMOS*/      
+#quemsomos{background-color: red;height:1800px;}      
     /*MISÃO VISAO E VALORES*/
 #title_quemsomos_2{font-size:58px;padding-bottom: 25px;}
 .card-mvv{background-color: white;width: 335px;height:250px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left: 0px;margin-top:120px;}
@@ -443,7 +533,9 @@ html {scroll-behavior: smooth;}
 
 
 @media screen and (min-width:1500px){
-      
+/*CONTAINER QUEM SOMOS*/
+#quemsomos{background-color: red;height:1800px;}
+#sociais{width:60px;padding-top: 15px;float:right;}
     /*MISÃO VISAO E VALORES*/
 #title_quemsomos_2{font-size:58px;padding-bottom: 25px;}
 .card-mvv{background-color: white;width: 380px;height:270px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left: 0px;margin-top:120px;}
@@ -459,8 +551,15 @@ html {scroll-behavior: smooth;}
 }
 
 @media screen and (min-width:1800px){
+
+/*CONTAINER QUEM SOMOS*/      
+#quemsomos{background-color: black;height:2020px;} 
+#sociais{width:60px;padding-top: 15px;float:right;}
+         /*FOTO - PARTICIPANTES*/
+
       
     /*FOTO - PARTICIPANTES*/
+
     #title_quemsomos_1{font-size:58px;padding-bottom: 25px;}
     #fig{font-size:20px;color: white;}
     .quemsomos_1{text-justify: auto;padding-top: 220px;}
