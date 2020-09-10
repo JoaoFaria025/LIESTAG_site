@@ -14,13 +14,15 @@ html {scroll-behavior: smooth;}
 #botao{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 160px;}
 .contato-nav{ margin-left: 150px;}
 
+a.active{color:yellow;}
+
 /*SECTION 1 - BANNER*/
 .cont_1{background-color:black;padding-top: 320px;height: 850px;}
 #title_banner{font-size: 66px;letter-spacing: 7px;}
 #subtitle_banner{font-size: 33px;margin-left: 27em;}
 #info_banner{font-size:38px;padding-top: 175px;}
 #arrow{width: 80px;;padding-top: 15px;}
-#arrow_1{margin-left: 11em;}
+#arrow_1{margin-left: 0em;}
 #sociais{width:60px;padding-top: 15px;float:right;}
 #cont-arrow{display: inline;}
 
@@ -459,8 +461,7 @@ textarea {
 #subtitle_banner{font-size: 33px;margin-left: 0em;}
 #info_banner{font-size:38px;padding-top: 175px;}
 #arrow{width: 80px;;padding-top: 15px;}
-#arrow_1{margin-left: 7em;}
-#sociais{width:60px;padding-top: 15px;float:right; padding-right:0em;}
+#arrow_1{margin-left: 0em;}
 #sociaiss{width:40px;padding-top: 15px;float:right; padding-right:0em;padding-left:5px;}
 #sociaiss_footer{width: 40px;padding-top:15px;}
 

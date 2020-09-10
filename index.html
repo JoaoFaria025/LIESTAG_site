@@ -31,12 +31,9 @@
                 </button>
             <div class="collapse navbar-collapse" id="navbarSite">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">
-                    <span class="menu">HOME</span></a></li>  
-                    <li class="nav-item"><a class="nav-link active" href="#quemsomos">
-                    <span class="menu">QUEM SOMOS?</span></a></li>  
-                    <li class="nav-item"><a class="nav-link active" href="#servicos">
-                    <span class="menu">SERVIÇOS</span></a></li>
+                    <li class="nav-item"><a class="nav-link active menu" href="#home">HOME</a></li>  
+                    <li class="nav-item"><a class="nav-link active menu" href="#quemsomos">QUEM SOMOS?</a></li>  
+                    <li class="nav-item"><a class="nav-link active menu"  href="#servicos">SERVIÇOS</a></li>
                     <li class="nav-item"><a class="nav-link active" href="ligaflix.html" target="_blank" ><!--CRIAR SITE EM CONST-->
                     <span class="menu">LIGAFLIX</span></a></li>
                     <div class="contato-nav">
@@ -50,7 +47,7 @@
     </div>
 
     <!--SECTION 1 - BANNER -->
-    <div class="container-fluid cont_1 text-center">
+    <div class="container-fluid cont_1 text-center" id="home">
         <div class="banner">
             <center>
                 <h1 id="title_banner"><b>CAPACITANDO O PROFISSIONAL DO FUTURO</b><span style="color:yellow">.</span></h1>
@@ -58,9 +55,11 @@
                 <h5 style="color:yellow" id="info_banner">Let´s bora?</h5>
                 <div class="cont-arrow">
                     <span id="arrow_1"><a href="#quemsomos"><img src="img/arrow.svg" id="arrow"></a></span>
+                   <!--
                     <span><a href="https://www.linkedin.com/company/liestag/"><img src="https://img.icons8.com/nolan/64/linkedin.png" id="sociaiss"></a></span>
                     <span><a href="https://www.instagram.com/liestag/"><img src="https://img.icons8.com/nolan/48/instagram-new.png" id="sociaiss"></a></span>
-                    <span><a href="https://www.facebook.com/liestag"><img src="https://img.icons8.com/nolan/64/facebook.png" id="sociaiss"></a></span>
+                    <span><a href=""><img src="https://img.icons8.com/nolan/64/facebook.png" id="sociaiss"></a></span>
+                   -->
                 </div>
             </center>
 
@@ -294,5 +293,36 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript">
+
+			(function() {
+
+                var navLinks = $('nav ul li a'),
+                    navH = $('nav').height(),
+                    section = $('section'),
+                    documentEl = $(document);
+                
+                documentEl.on('scroll', function() {
+                    var currentScrollPos = documentEl.scrollTop();
+                    
+                    section.each(function() {
+                        var self = $(this);
+                        if ( self.offset().top < (currentScrollPos + navH) && (currentScrollPos + navH) <script (self.offset().top + self.outerHeight()) ) {
+                            var targetClass = '.' + self.attr('class') + '-marker';
+                            navLinks.removeClass('active');
+                            $(targetClass).addClass('active');
+                        }
+                    });
+                    
+                });
+                
+                
+                
+
+
+
+			})();
+    </script>
 </body>
 </html>
