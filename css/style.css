@@ -20,10 +20,22 @@ html {scroll-behavior: smooth;}
 
 /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
 .cont_1{background-color:black;padding-top: 320px;height: 850px;}
-#title_banner{font-size: 66px;letter-spacing: 7px;}
+#title_banner{font-size: 66px;letter-spacing: 5px;}
 #subtitle_banner{font-size: 33px;margin-left: 27em;}
 #info_banner{font-size:38px;padding-top: 175px;}
-#arrow{width: 20px;padding-top: 15px;}
+#arrow{width: 15px;padding-top: 15px;-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;}
+#arrow:hover{	box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.2);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);}
 #arrow_1{margin-left: 0em;}
 #sociais{width:60px;padding-top: 15px;float:right;}
 #cont-arrow{display: inline;}
@@ -43,29 +55,54 @@ html {scroll-behavior: smooth;}
 
 #adhr{display:flex;}
 
-.cont_2{background-color:black;height: 650px;padding-top:150px;margin-top: 15px; text-align: left;}
-#title_quemsomos{letter-spacing: 3px;font-size:52px;}
-#subtitle_quemsomos{font-size: 20px;text-align: justify;letter-spacing: 2;margin-right: 200px;}
+
 .quemsomos{text-justify: auto;}
 /*FOTO - PARTICIPANTES*/
 #title_quemsomos_1{letter-spacing: 3px;font-size:52px;padding-bottom: 25px;}
 #fig{font-size:20px;color: white;}
 .quemsomos_1{text-justify: auto;padding-top: 220px;}
-.rounded-circle{width: 200px;padding: 17px;}
-.rounded-circle:hover{width: 205px;}
+.rounded-circle{width: 210px;padding: 17px;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.1s;
+	transition-duration: 0.1s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;}
+.rounded-circle:hover{width: 205px;
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);}
 .img_participantes{padding-bottom: 220px;padding: 25px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
 #title-mmv{letter-spacing: 3px;font-size:52px;}
-.cardd{background-color: white;width: 380px;height:300px;border-radius:30px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 200px;margin-top:120px;padding:15px;}
-.cardd:hover{width: 395px;height:310px;}
-#title_card{color:black;font-size:44px;letter-spacing: 3px;padding: 15px;}
-.header_card{color:black;font-size:18px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
+.cardd{
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.2s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;
+	background-color: black;width: 380px;height:300px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 170px;margin-top:120px;padding:15px;}
+.cardd:hover, .card:focus, .card:active{  
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);}
+#title_card{color:white;font-size:44px;letter-spacing: 3px;padding: 15px;}
+.header_card{color:white;font-size:18px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
           
-.card_1{margin-left:210px;margin-top:50px;}
+.card_1{margin-left:240px;margin-top:50px;}
 .card-mvv_1:hover{border:solid yellow;}
           
-.card_2{margin-left:225px;margin-top:120px;}
+.card_2{margin-left:300px;margin-top:120px;}
 .card-mvv_2:hover{border:solid yellow;}
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */   
@@ -82,7 +119,7 @@ html {scroll-behavior: smooth;}
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
 .title-contato{font-size:45px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;}
 .subtitle-contato{font-size:28px;text-align:center;letter-spacing: 1.5px;}
-.container-formulario{margin-left: 250px;background-color:black;width:550px; padding: 20px;border: 3px solid white; border-radius: 25px;}
+.container-formulario{margin-left: 250px;background-color:black;width:550px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
 #contato{height: 500px;margin-bottom: 100px;}
 #title-forms{color:white;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
@@ -113,8 +150,8 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
 .container-footer{margin-bottom: 30px;background-color:;}
-#footer_logo{width:260px;padding: 11px;}
-#subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 15px;}
+#footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
+#subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 
 
 
@@ -159,19 +196,7 @@ textarea {resize: none;}
 .quemsomos_1{text-justify: auto;padding-top: 115px;}
 .rounded-circle{width: 200px;padding: 17px;}
 .img_participantes{padding-bottom: 115px;}
-    
-/*MISÃO VISAO E VALORES
- #title_quemsomos_2{font-size:32px;padding-bottom: 25px;}
-.card-mvv{background-color: white;width: 290px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left: 0px;margin-top:50px;}
-.card-mvv:hover{border:solid yellow;}
-.title_card{color:black;font-size:15px;letter-spacing: 1px;padding: 15px;}
-.header_card{color:black;font-size:15px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
-    
-.card-mvv_1{background-color: white;width: 290px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:0px;margin-top:60px;}
-.card-mvv_1:hover{border:solid yellow;}
-    
-.card-mvv_2{background-color: white;width: 290px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:0px;margin-top:60px;}
-.card-mvv_2:hover{border:solid yellow;}*/
+
 
 }
 
@@ -274,19 +299,7 @@ textarea {resize: none;}
 .quemsomos_1{text-justify: auto;padding-top: 115px;}
 .rounded-circle{width: 200px;padding: 17px;}
 .img_participantes{padding-bottom: 115px;}
-        
-             /*MISÃO VISAO E VALORES
-#title_quemsomos_2{font-size:45px;padding-bottom: 25px;}
-.card-mvv{background-color: white;width: 320px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left: 0px;margin-top:50px;}
-.card-mvv:hover{border:solid yellow;}
-.title_card{color:black;font-size:21px;letter-spacing: 1px;padding: 15px;}
-.header_card{color:black;font-size:16px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
-        
-.card-mvv_1{background-color: white;width: 320px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:0px;margin-top:60px;}
-.card-mvv_1:hover{border:solid yellow;}
-        
-.card-mvv_2{background-color: white;width: 320px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:0px;margin-top:60px;}
-.card-mvv_2:hover{border:solid yellow;}*/
+
 }
 
 
@@ -314,52 +327,18 @@ textarea {resize: none;}
 .quemsomos_1{text-justify: auto;padding-top: 115px;}
 .rounded-circle{width: 200px;padding: 17px;}
 .img_participantes{padding-bottom: 115px;}
-        
- /*MISÃO VISAO E VALORES
- #title_quemsomos_2{font-size:50px;padding-bottom: 25px;}
- .card-mvv{background-color: white;width: 450px;height:220px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left: 0%;margin-top:50px;}
- .card-mvv:hover{border:solid yellow;}
- .title_card{color:black;font-size:25px;letter-spacing: 1px;padding: 15px;}
- .header_card{color:black;font-size:16px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
-          
- .card-mvv_1{background-color: white;width: 450px;height:220px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:0%;margin-top:60px;}
- .card-mvv_1:hover{border:solid yellow;}
-          
- .card-mvv_2{background-color: white;width: 450px;height:220px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:0%;margin-top:60px;}
- .card-mvv_2:hover{border:solid yellow;} */
+
 }
 
 
 @media screen and (min-width:760px)
 {
- /*MISÃO VISAO E VALORES
- #title_quemsomos_2{font-size:50px;padding-bottom: 25px;}
- .card-mvv{background-color: white;width: 450px;height:220px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left: 0%;margin-top:50px;}
- .card-mvv:hover{border:solid yellow;}
- .title_card{color:black;font-size:25px;letter-spacing: 1px;padding: 15px;}
- .header_card{color:black;font-size:16px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
-          
- .card-mvv_1{background-color: white;width: 450px;height:220px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:0%;margin-top:60px;}
- .card-mvv_1:hover{border:solid yellow;}
-          
- .card-mvv_2{background-color: white;width: 450px;height:220px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:0%;margin-top:60px;}
- .card-mvv_2:hover{border:solid yellow;}  */       
+     
  }  
 
  @media screen and (min-width:850px)
  {
- /*MISÃO VISAO E VALORES
-#title_quemsomos_2{font-size:50px;padding-bottom: 25px;}
-.card-mvv{background-color: white;width: 450px;height:220px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left: 10%;margin-top:50px;}
-.card-mvv:hover{border:solid yellow;}
-.title_card{color:black;font-size:25px;letter-spacing: 1px;padding: 15px;}
-.header_card{color:black;font-size:16px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
-         
-.card-mvv_1{background-color: white;width: 450px;height:220px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:10%;margin-top:60px;}
-.card-mvv_1:hover{border:solid yellow;}
-         
-.card-mvv_2{background-color: white;width: 450px;height:220px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:10%;margin-top:60px;}
-.card-mvv_2:hover{border:solid yellow;}*/
+
   }  
  
 @media screen and (min-width:990px){
@@ -390,18 +369,6 @@ textarea {resize: none;}
 /*FOTO - PARTICIPANTES*/
 #title_quemsomos_1{font-size:58px;padding-bottom: 25px;}
 
- /*MISÃO VISAO E VALORES
-#title_quemsomos_2{font-size:58px;padding-bottom: 25px;}
-.card-mvv{background-color: white;width: 450px;height:220px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left: 10%;margin-top:50px;}
-.card-mvv:hover{border:solid yellow;}
-.title_card{color:black;font-size:25px;letter-spacing: 1px;padding: 15px;}
-.header_card{color:black;font-size:16px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
-         
-.card-mvv_1{background-color: white;width: 450px;height:220px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:10%;margin-top:60px;}
-.card-mvv_1:hover{border:solid yellow;}
-         
-.card-mvv_2{background-color: white;width: 450px;height:220px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:10%;margin-top:60px;}
-.card-mvv_2:hover{border:solid yellow;}*/
 }
 @media screen and (min-width:997px){
 /*CONTAINER QUEM SOMOS*/      
@@ -418,35 +385,13 @@ textarea {resize: none;}
  @media screen and (min-width:1140px){
 /*CONTAINER QUEM SOMOS*/      
 #quemsomos{background-color: red;height:2400px;} 
-/*MISÃO VISAO E VALORES
-#title_quemsomos_2{font-size:58px;padding-bottom: 25px;}
-.card-mvv{background-color: white;width: 454px;height:270px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:20%;margin-top:50px;}
-.card-mvv:hover{border:solid yellow;}
-.title_card{color:black;font-size:28px;letter-spacing: 1px;padding: 15px;}
-.header_card{color:black;font-size:20px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
-              
-.card-mvv_1{background-color: white;width: 454px;height:270px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:20%;margin-top:60px;}
-.card-mvv_1:hover{border:solid yellow;}
-              
-.card-mvv_2{background-color: white;width: 454px;height:270px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:20%;margin-top:60px;}
-.card-mvv_2:hover{border:solid yellow;}*/
+
  }
 
  @media screen and (min-width:1171px){
 /*CONTAINER QUEM SOMOS*/      
 #quemsomos{background-color: red;height:2400px;} 
-/*MISÃO VISAO E VALORES
-#title_quemsomos_2{font-size:58px;padding-bottom: 25px;}
-.card-mvv{background-color: white;width: 405px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:20%;margin-top:50px;}
-.card-mvv:hover{border:solid yellow;}
-.title_card{color:black;font-size:18px;letter-spacing: 1px;padding: 15px;}
-.header_card{color:black;font-size:15px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
-          
-.card-mvv_1{background-color: white;width: 405px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:20%;margin-top:60px;}
-.card-mvv_1:hover{border:solid yellow;}
-          
-.card-mvv_2{background-color: white;width: 405px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:20%;margin-top:60px;}
-.card-mvv_2:hover{border:solid yellow;}*/
+
 }
     
      
@@ -487,36 +432,13 @@ textarea {resize: none;}
 /*FOTO - PARTICIPANTES*/
 #title_quemsomos_1{font-size:62px;padding-bottom: 25px;}
 
- /*MISÃO VISAO E VALORES
- #title_quemsomos_2{font-size:62px;padding-bottom: 25px;}
- .card-mvv{background-color: white;width: 255px;height:250px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left: 0px;margin-top:120px;}
- .card-mvv:hover{border:solid yellow;}
- .title_card{color:black;font-size:18px;letter-spacing: 1px;padding: 15px;}
- .header_card{color:black;font-size:15px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
-           
- .card-mvv_1{background-color: white;width: 255px;height:250px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:80px;margin-top:50px;}
- .card-mvv_1:hover{border:solid yellow;}
-           
- .card-mvv_2{background-color: white;width: 280px;height:250px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:160px;margin-top:120px;}
- .card-mvv_2:hover{border:solid yellow;}*/
   }
 
 
   @media screen and (min-width:1300px){
  /*CONTAINER QUEM SOMOS*/      
 #quemsomos{background-color: red;height:1800px;}      
- /*MISÃO VISAO E VALORES
- #title_quemsomos_2{font-size:58px;padding-bottom: 25px;}
- .card-mvv{background-color: white;width: 335px;height:250px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left: 0px;margin-top:120px;}
- .card-mvv:hover{border:solid yellow;}
- .title_card{color:black;font-size:23px;letter-spacing: 1px;padding: 15px;}
- .header_card{color:black;font-size:18px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
-           
- .card-mvv_1{background-color: white;width: 335px;height:250px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:120px;margin-top:50px;}
- .card-mvv_1:hover{border:solid yellow;}
-           
- .card-mvv_2{background-color: white;width: 335px;height:250px;border-radius:10px;-webkit-box-shadow: 7px 11px 8px 0px grey;-moz-box-shadow:7px 11px 8px 0px grey;box-shadow:7px 11px 8px 0px grey;margin-left:250px;margin-top:120px;}
- .card-mvv_2:hover{border:solid yellow;}*/
+
   }
  
   @media screen and (min-width:1400px){
@@ -531,13 +453,18 @@ textarea {resize: none;}
 @media screen and (min-width:1500px){
 /*CONTAINER QUEM SOMOS*/
 #quemsomos{background-color: black;height:1800px;}
-#sociais{width:60px;padding-top: 15px;float:right;}
+.cont_2{background-color:red;height: 650px;padding-top:150px;margin-top: 15px; text-align: left;}
+#title_quemsomos{letter-spacing: 3px;font-size:52px;}
+#subtitle_quemsomos{font-size: 55px;text-align: justify;letter-spacing: 2;margin-right: 150px;}
+
 }
 
 @media screen and (min-width:1800px){
     /*QUEM SOMOS */
 #quemsomos{height:2000px;}
-
+.cont_2{background-color:black;height: 650px;padding-top:150px;margin-top: 15px; text-align: left;}
+#title_quemsomos{letter-spacing: 3px;font-size:52px;}
+#subtitle_quemsomos{font-size: 25px;text-align: justify;letter-spacing: 2;margin-right: 200px;}
 /*FOTO - PARTICIPANTES*/
 #title_quemsomos_1{letter-spacing: 3px;font-size:52px;padding-bottom: 25px;}
 #fig{font-size:20px;color: white;}
