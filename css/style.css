@@ -40,16 +40,21 @@ html {scroll-behavior: smooth;}
 #sociais{width:60px;padding-top: 15px;float:right;}
 #cont-arrow{display: inline;}
 
+
 /*     ✱✱✱✱✱✱✱SECTION 2 - QUEM SOMOS ✱✱✱✱✱✱✱     */      
 /*QUEM SOMOS */
 #quemsomos{height:2000px;}
+
+
 /*HR*/
 #aahr{display:flex;}
 .txt_ahr{padding-left:110px;}
 .ahr{width:80px;height: 5px;background-color:white;margin-left: -200px;margin-top: 35px;}
 #abhr{display:flex;}
 #achr{display: flex;}
+
 #adhr{display:flex;}
+
 
 .quemsomos{text-justify: auto;}
 /*FOTO - PARTICIPANTES*/
@@ -76,15 +81,10 @@ html {scroll-behavior: smooth;}
 
 
 
-
-
-
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
 .container-footer{margin-bottom: 30px;background-color:;}
 #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
-
-
 
 
 
@@ -1429,6 +1429,7 @@ textarea {resize: none;}
 .js-unhighlight-label {
 	color: #999 
 }
+
 }
 
 
@@ -1580,6 +1581,7 @@ textarea {resize: none;}
 .card_2{margin-left:300px;margin-top:120px;}
 .card-mvv_2:hover{border:solid yellow;}
 
+
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */   
 #servicos{margin-bottom: 100px;margin-top:100px;}
 .title-servicos{font-size:38px;padding-bottom:15px;letter-spacing: 1px;}
@@ -1622,7 +1624,7 @@ textarea {resize: none;}
 .js-unhighlight-label {
 	color: #999 
 }
+
 }
- 
 
 
