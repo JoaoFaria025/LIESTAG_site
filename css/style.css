@@ -1,6 +1,6 @@
 
 /*----- RESET ----- */
-*{ border:none; outline:none; font-family: 'PT Sans', sans-serif;}
+*{ border:none; outline:none; font-family: 'PT Sans', sans-serif;margin: 0px;}
 a {text-decoration:none;}
 ul{list-style: none;}
 body{background-color: black;}
@@ -53,6 +53,7 @@ html {scroll-behavior: smooth;}
 
 
 /*     ✱✱✱✱✱✱✱SECTION 2 - QUEM SOMOS ✱✱✱✱✱✱✱     */      
+
 /*QUEM SOMOS */
 #quemsomos{height:2000px;}
 
@@ -69,7 +70,7 @@ html {scroll-behavior: smooth;}
 
 .quemsomos{text-justify: auto;}
 /*FOTO - PARTICIPANTES*/
-#title_quemsomos_1{letter-spacing: 3px;font-size:52px;padding-bottom: 25px;}
+#title_quemsomos_1{letter-spacing: 0px;font-size:50px;padding-bottom: 25px;}
 #fig{font-size:20px;color: white;}
 .quemsomos_1{text-justify: auto;padding-top: 220px;}
 .rounded-circle{width: 210px;padding: 17px;
@@ -119,7 +120,8 @@ html {scroll-behavior: smooth;}
 .contato-nav{margin-left:0px;margin-top: 15px;}
 
 /*SECTION 1 - BANNER*/
-.cont_1{background-color:black;padding-top: 180px;height: 620px;}
+#home{background-color: ;height: 750px;}
+.cont_1{background-color:;padding-top: 180px;height: 620px;}
 #title_banner{font-size: 36px;letter-spacing: 7px;}
 #subtitle_banner{font-size: 20px;margin-left: 1em;padding-top: 5px;}
 #info_banner{font-size:28px;padding-top: 115px;}
@@ -129,20 +131,22 @@ html {scroll-behavior: smooth;}
 #cont-arrow{display: inline;}
 
 /*SECTION 2 - QUEM SOMOS */
-.cont_2{background-color:red;height: 580px;padding-top:10px; text-align: left;width: 100%;}
-#title_quemsomos{font-size:32px;}
+.cont_2{background-color:;height:100%;padding-top:100px; text-align: left;width:100%;}
+#title_quemsomos{font-size:25px;text-align: left;}
+#quemsomos{background-color: ;width:100%;height: 100%;}
 #subtitle_quemsomos{font-size: 17px;text-align: justify;letter-spacing: 2;}
-.quemsomos{text-justify: auto;padding-left:0em;width:100%;}
+.quemsomos{text-justify: auto;padding-left:0em;width:100%;background-color: ;}
 
     /*FOTO - PARTICIPANTES*/
-#title_quemsomos_1{font-size:32px;padding-bottom: 25px;}
+#title_quemsomos_1{font-size:25px;padding-bottom: 25px;letter-spacing: 0px;text-align: left;}
 #fig{font-size:20px;color: white;}
 .quemsomos_1{text-justify: auto;padding-top: 115px;}
 .rounded-circle{width: 200px;padding: 17px;}
 .img_participantes{padding-bottom: 115px;}
 .participantes{width: 220px; height: 205px;}
+
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:32px;}
+#title-mmv{letter-spacing: 0px;font-size:25px;text-align: left;}
 .cardd{
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -154,7 +158,7 @@ html {scroll-behavior: smooth;}
 	transition-duration: 0.2s;
 	-webkit-transition-property: box-shadow, transform;
 	transition-property: box-shadow, transform;
-	background-color: black;width: 270px;height:315px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 0px;margin-top:80px;padding:15px;}
+	background-color: black;width: 270px;height:315px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 20px;margin-top:80px;padding:15px;}
 .cardd:hover, .card:focus, .card:active{  
 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 	-webkit-transform: scale(1.1);
@@ -162,18 +166,20 @@ html {scroll-behavior: smooth;}
 #title_card{color:white;font-size:42px;letter-spacing: 3px;padding: 15px;}
 .header_card{color:white;font-size:14px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
           
-.card_1{margin-left:0px;margin-top:50px;}
+.card_1{margin-left:20px;margin-top:50px;}
 .card-mvv_1:hover{border:solid yellow;}
           
-.card_2{margin-left:0px;margin-top:50px;}
+.card_2{margin-left:20px;margin-top:50px;}
 .card-mvv_2:hover{border:solid yellow;}  
 
+.quemsomos_2{margin-bottom: 0px;height: 1400px;}
+
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */ 
-#title_quemsomos{font-size:32px;}  
-#servicos{margin-bottom: 100px;margin-top:100px;text-align:justify;}
-.title-servicos{font-size:25px;padding-bottom:15px;letter-spacing: 1px;}
-.subtitle-servicos{font-size:18px; width: 16em;}
-.cont_3{height: 650px;padding-top:150px;margin-top: 15px; text-align: left;}
+#title_servicos{font-size:25px;text-align: left;}  
+#servicos{margin-bottom: 0px;margin-top:0px;text-align:justify;}
+.title-servicos{font-size:20px;padding-bottom:15px;letter-spacing: 1px;background-color: black;}
+.subtitle-servicos{font-size:18px; }
+.cont_3{height: 850px;padding-top:0px;margin-top: 15px; text-align: left;}
 .servicos{text-justify: auto;}
 .servicos-card{margin:150px;width:100%;height:210px;}
 .um{margin-left:0px;margin-top:80px;}
@@ -181,13 +187,13 @@ html {scroll-behavior: smooth;}
 .tres{margin-left:0px;margin-top:-160px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
-.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:left;padding-bottom: 10px;margin-left:0px;width: 11em;}
-.subtitle-contato{font-size:18px;text-align:left;letter-spacing: 1.5px;margin-left:0px;width: 18em;}
-.container-formulario{margin-top:80px;margin-left: 0px;background-color:black;width:300px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 1000px;margin-bottom: 100px;margin-top: 350px;}
-#title-forms{color:white;}
+.title-contato{font-size:25px;padding-bottom:15px;letter-spacing: 1.5px;text-align:left;padding-bottom: 10px;margin-left:0px;}
+.subtitle-contato{font-size:18px;text-align:left;letter-spacing: 1.5px;margin-left:0px;background-color: ;}
+.container-formulario{margin-top:80px;margin-left: 10px;background-color:black;width:300px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+#contato{height: 950px;margin-bottom: 0px;margin-top: 0px;}
+.contato{padding-top: 0px;}
 
-#texto-contato{margin-top: 100px;}
+#texto-contato{margin-top: 0px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
 textarea {resize: none;}
 .form-label {
@@ -216,7 +222,7 @@ textarea {resize: none;}
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
 .container-footer{margin-bottom: 30px;background-color:;}
 #footer_logo{width:220px;padding: 11px;margin-bottom: 11px;}
-#subtitle_footer{font-size: 20px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+#subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 15px;padding-bottom: 7px;margin-top:0px;}
 
 
 }
@@ -229,11 +235,11 @@ textarea {resize: none;}
 .contato-nav{ margin-top:15px;}
 
 /*SECTION 1 - BANNER*/
-#home{background-color: blueviolet;width: 100%;}
+#home{background-color: ;width: 100%;}
 .cont_1{background-color:black;padding-top: 180px;height: 620px;}
 #title_banner{font-size: 36px;letter-spacing: 7px;}
-#subtitle_banner{font-size: 10px;margin-left: 1em;padding-top: 5px;}
-#info_banner{font-size:28px;padding-top: 115px;}
+#subtitle_banner{font-size: 20px;margin-left: 1em;padding-top: 5px;}
+#info_banner{font-size:28px;padding-top: 205px;}
 #arrow{width: 50px;;padding-top: 15px;}
 #arrow_1{margin-left: 0em;}
 #sociais{display:none;width:60px;padding-top: 15px;float:right;}
@@ -241,15 +247,15 @@ textarea {resize: none;}
 
 /*SECTION 2 - QUEM SOMOS */
 .cont_2{background-color:black;height: 580px;padding-top:120px; text-align: left;}
-#title_quemsomos{font-size:35px;}
+#title_quemsomos{font-size:32px;text-align: left;}
 #subtitle_quemsomos{font-size: 17px;text-align: justify;letter-spacing: 2;}
 .quemsomos{text-justify: auto;padding-left:1em;margin-right: 0px;}
 
     /*FOTO - PARTICIPANTES*/
-#title_quemsomos_1{font-size:35px;padding-bottom: 25px;}
+#title_quemsomos_1{font-size:32px;padding-bottom: 25px;}
  
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:35px;}
+#title-mmv{font-size:32px;text-align: left;}
 .cardd{
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -261,7 +267,7 @@ textarea {resize: none;}
 	transition-duration: 0.2s;
 	-webkit-transition-property: box-shadow, transform;
 	transition-property: box-shadow, transform;
-	background-color: black;width: 270px;height:315px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 0px;margin-top:80px;padding:15px;}
+	background-color: black;width: 270px;height:315px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 20px;margin-top:80px;padding:15px;}
 .cardd:hover, .card:focus, .card:active{  
 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 	-webkit-transform: scale(1.1);
@@ -269,16 +275,16 @@ textarea {resize: none;}
 #title_card{color:white;font-size:42px;letter-spacing: 3px;padding: 15px;}
 .header_card{color:white;font-size:14px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
           
-.card_1{margin-left:0px;margin-top:50px;}
+.card_1{margin-left:20px;margin-top:50px;}
 .card-mvv_1:hover{border:solid yellow;}
           
-.card_2{margin-left:0px;margin-top:50px;}
+.card_2{margin-left:20px;margin-top:50px;}
 .card-mvv_2:hover{border:solid yellow;} 
 
 .quemsomos_2{margin-top: 50px;padding-bottom: 140px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */ 
-#title_quemsomos{font-size:35px;}  
+#title_servicos{font-size:32px;text-align: left;}  
 #servicos{margin-bottom: 0px;margin-top:0px;text-align:justify;}
 .title-servicos{font-size:25px;padding-bottom:15px;letter-spacing: 1px;}
 .subtitle-servicos{font-size:18px; width: 16em;}
@@ -292,11 +298,11 @@ textarea {resize: none;}
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
 .title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:left;padding-bottom: 10px;margin-left:0px;width: 11em;}
 .subtitle-contato{font-size:18px;text-align:left;letter-spacing: 1.5px;margin-left:0px;width: 18em;}
-.container-formulario{margin-top:80px;margin-left: 0px;background-color:black;width:300px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 1000px;margin-bottom: 100px;margin-top:0px;}
+.container-formulario{margin-top:80px;margin-left: 10px;background-color:black;width:300px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+#contato{height: 900px;margin-bottom: 50px;margin-top:0px;}
 #title-forms{color:white;}
 
-#texto-contato{margin-top: 100px;}
+#texto-contato{margin-top: 50px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
 textarea {resize: none;}
 .form-label {
@@ -351,16 +357,16 @@ textarea {resize: none;}
 
 /*SECTION 2 - QUEM SOMOS */
 .cont_2{background-color:black;height: 580px;padding-top:120px; text-align: left;}
-#title_quemsomos{font-size:37px;}
+#title_quemsomos{font-size:35px;text-align: left;}
 #subtitle_quemsomos{font-size: 19px;text-align: justify;letter-spacing: 2;}
 .quemsomos{text-justify: auto;padding-left:1em}
 
 
 /*FOTO - PARTICIPANTES*/
-#title_quemsomos_1{font-size:37px;padding-bottom: 25px;}
+#title_quemsomos_1{font-size:35px;padding-bottom: 25px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:37px;}
+#title-mmv{font-size:35px;text-align: left;}
 .cardd{
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -372,7 +378,7 @@ textarea {resize: none;}
 	transition-duration: 0.2s;
 	-webkit-transition-property: box-shadow, transform;
 	transition-property: box-shadow, transform;
-	background-color: black;width: 335px;height:320px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 0px;margin-top:80px;padding:15px;}
+	background-color: black;width: 335px;height:320px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 20px;margin-top:80px;padding:15px;}
 .cardd:hover, .card:focus, .card:active{  
 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 	-webkit-transform: scale(1.1);
@@ -380,19 +386,19 @@ textarea {resize: none;}
 #title_card{color:white;font-size:42px;letter-spacing: 3px;padding: 15px;}
 .header_card{color:white;font-size:17px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
           
-.card_1{margin-left:0px;margin-top:50px;}
+.card_1{margin-left:20px;margin-top:50px;}
 .card-mvv_1:hover{border:solid yellow;}
           
-.card_2{margin-left:0px;margin-top:50px;}
+.card_2{margin-left:20px;margin-top:50px;}
 .card-mvv_2:hover{border:solid yellow;} 
 
 .quemsomos_2{margin-top: 50px;padding-bottom: 140px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */ 
-#title_quemsomos{font-size:37px;}  
-#servicos{margin-bottom: 50px;margin-top:0px;text-align:justify;}
-.title-servicos{font-size:30px;padding-bottom:15px;letter-spacing: 1px;}
-.subtitle-servicos{font-size:18px; width: 16em;}
+#title_servicos{font-size:35px;text-align: left;}  
+#servicos{margin-bottom: 0px;margin-top:0px;text-align:justify;}
+.title-servicos{font-size:28px;padding-bottom:15px;letter-spacing: 1px;}
+.subtitle-servicos{font-size:18px; width: 16em;text-align: justify;}
 .cont_3{height: 850px;padding-top:0px;margin-top: 15px; text-align: left;}
 .servicos{text-justify: auto;}
 .servicos-card{margin:150px;width:100%;height:210px;}
@@ -401,13 +407,13 @@ textarea {resize: none;}
 .tres{margin-left:0px;margin-top:-160px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
-.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:35px;width: 11em;}
-.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:35px;width: 18em;}
-.container-formulario{margin-top:80px;margin-left: 40px;background-color:black;width:330px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 1000px;margin-bottom: 100px;margin-top: 0px;}
+.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;}
+.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:0px;}
+.container-formulario{margin-top:80px;margin-left: 15px;background-color:black;width:330px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+#contato{height: 900px;margin-bottom: 0px;margin-top: 0px;}
 #title-forms{color:white;}
 
-#texto-contato{margin-top: 100px;}
+#texto-contato{margin-top: 0px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
 textarea {resize: none;}
 .form-label {
@@ -438,12 +444,13 @@ textarea {resize: none;}
 @media screen and (min-width:456px){
 /*SECTION 2 - QUEM SOMOS */
 .cont_2{background-color:black;height: 580px;padding-top:120px;}
-#title_quemsomos{font-size:37px;}
+#title_quemsomos{font-size:40px;}
 #subtitle_quemsomos{font-size: 19px;text-align: justify;letter-spacing: 2;}
 .quemsomos{text-justify: auto;padding-left:1em;margin-right: 0px;}
+#title_quemsomos_1{font-size: 40px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:37px;}
+#title-mmv{font-size:40px;}
 .cardd{
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -455,7 +462,7 @@ textarea {resize: none;}
 	transition-duration: 0.2s;
 	-webkit-transition-property: box-shadow, transform;
 	transition-property: box-shadow, transform;
-	background-color: black;width: 320px;height:340px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 0px;margin-top:80px;padding:15px;}
+	background-color: black;width: 320px;height:340px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 50px;margin-top:80px;padding:15px;}
 .cardd:hover, .card:focus, .card:active{  
 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 	-webkit-transform: scale(1.1);
@@ -463,17 +470,17 @@ textarea {resize: none;}
 #title_card{color:white;font-size:42px;letter-spacing: 3px;padding: 15px;}
 .header_card{color:white;font-size:17px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
           
-.card_1{margin-left:0px;margin-top:50px;}
+.card_1{margin-left:50px;margin-top:50px;}
 .card-mvv_1:hover{border:solid yellow;}
           
-.card_2{margin-left:0px;margin-top:50px;}
+.card_2{margin-left:50px;margin-top:50px;}
 .card-mvv_2:hover{border:solid yellow;}    
 
 
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */ 
-#title_quemsomos{font-size:37px;}  
-#servicos{margin-bottom: 50px;margin-top:0px;text-align:justify;}
+#title_servicos{font-size:40px;}  
+#servicos{margin-bottom: 40px;margin-top:0px;text-align:justify;}
 .title-servicos{font-size:30px;padding-bottom:15px;letter-spacing: 1px;}
 .subtitle-servicos{font-size:18px; width: 16em;}
 .cont_3{height: 850px;padding-top:0px;margin-top: 15px; text-align: left;}
@@ -485,13 +492,13 @@ textarea {resize: none;}
 
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
-.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:50px;width: 11em;}
-.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:50px;width: 18em;}
-.container-formulario{margin-top:80px;margin-left: 50px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 1000px;margin-bottom: 100px;margin-top: 0px;}
+.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:30px;width: 11em;}
+.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:30px;width: 18em;}
+.container-formulario{margin-top:80px;margin-left: 35px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+#contato{height: 900px;margin-bottom: 0px;margin-top: 0px;}
 #title-forms{color:white;}
 
-#texto-contato{margin-top: 100px;}
+#texto-contato{margin-top: 0px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
 textarea {resize: none;}
 .form-label {
@@ -516,6 +523,7 @@ textarea {resize: none;}
 .js-unhighlight-label {
 	color: #999 
 }
+
   
 }
 
@@ -540,7 +548,7 @@ textarea {resize: none;}
 .cont_2{background-color:black;height: 580px;padding-top:120px; text-align: left;}
 #title_quemsomos{font-size:45px;}
 #subtitle_quemsomos{font-size: 17px;text-align: justify;letter-spacing: 2;}
-.quemsomos{text-justify: auto;padding-left:5em;margin-right: 0px;}
+.quemsomos{text-justify: auto;padding-left:0em;margin-right: 0px;}
 
     /*FOTO - PARTICIPANTES*/
 #title_quemsomos_1{font-size:45px;padding-bottom: 25px;}
@@ -550,7 +558,7 @@ textarea {resize: none;}
 .img_participantes{padding-bottom: 115px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:45px;}
+#title-mmv{font-size:45px;}
 .cardd{
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -562,7 +570,7 @@ textarea {resize: none;}
 	transition-duration: 0.2s;
 	-webkit-transition-property: box-shadow, transform;
 	transition-property: box-shadow, transform;
-	background-color: black;width: 320px;height:340px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 0px;margin-top:80px;padding:15px;}
+	background-color: black;width: 320px;height:340px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 80px;margin-top:80px;padding:15px;}
 .cardd:hover, .card:focus, .card:active{  
 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 	-webkit-transform: scale(1.1);
@@ -570,15 +578,15 @@ textarea {resize: none;}
 #title_card{color:white;font-size:42px;letter-spacing: 3px;padding: 15px;}
 .header_card{color:white;font-size:17px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
           
-.card_1{margin-left:0px;margin-top:50px;}
+.card_1{margin-left:80px;margin-top:50px;}
 .card-mvv_1:hover{border:solid yellow;}
           
-.card_2{margin-left:0px;margin-top:50px;}
+.card_2{margin-left:80px;margin-top:50px;}
 .card-mvv_2:hover{border:solid yellow;} 
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */ 
-#title_quemsomos{font-size:45px;}  
-#servicos{margin-bottom: 50px;margin-top:0px;text-align:justify;}
+#title_servicos{font-size:45px;}  
+#servicos{margin-bottom: 0px;margin-top:100px;text-align:justify;}
 .title-servicos{font-size:30px;padding-bottom:15px;letter-spacing: 1px;}
 .subtitle-servicos{font-size:20px; width: 19em;}
 .cont_3{height: 850px;padding-top:0px;margin-top: 15px; text-align: left;}
@@ -589,13 +597,13 @@ textarea {resize: none;}
 .tres{margin-left:0px;margin-top:-160px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
-.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:10px;width: 11em;}
-.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:10px;width: 18em;}
-.container-formulario{margin-top:80px;margin-left: 0px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 1000px;margin-bottom: 100px;margin-top: 0px;}
+.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:80px;width: 11em;}
+.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:80px;width: 18em;}
+.container-formulario{margin-top:80px;margin-left: 80px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+#contato{height: 900px;margin-bottom: 100px;margin-top: 0px;}
 #title-forms{color:white;}
 
-#texto-contato{margin-top: 100px;}
+#texto-contato{margin-top: 50px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
 textarea {resize: none;}
 .form-label {
@@ -623,7 +631,69 @@ textarea {resize: none;}
 
 }
 
+@media screen and (min-width:620px){
 
+/*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
+#title-mmv{font-size:45px;}
+.cardd{
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.2s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;
+	background-color: black;width: 320px;height:340px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 150px;margin-top:80px;padding:15px;}
+.cardd:hover, .card:focus, .card:active{  
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);}
+#title_card{color:white;font-size:42px;letter-spacing: 3px;padding: 15px;}
+.header_card{color:white;font-size:17px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
+          
+.card_1{margin-left:150px;margin-top:50px;}
+.card-mvv_1:hover{border:solid yellow;}
+          
+.card_2{margin-left:150px;margin-top:50px;}
+.card-mvv_2:hover{border:solid yellow;} 
+
+/*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
+.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:130px;width: 11em;}
+.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:130px;width: 18em;}
+.container-formulario{margin-top:80px;margin-left: 130px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+#contato{height: 900px;margin-bottom: 100px;margin-top: 0px;}
+#title-forms{color:white;}
+
+#texto-contato{margin-top: 50px;}
+#btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
+textarea {resize: none;}
+.form-label {
+	font-size: px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+	color: #999 
+}
+
+}
 
 @media screen and (min-width:700px){
 /*SECTION 1 - BANNER*/
@@ -638,19 +708,14 @@ textarea {resize: none;}
 
 /*SECTION 2 - QUEM SOMOS */
 .cont_2{background-color:black;height: 580px;padding-top:120px; text-align: left;}
-#title_quemsomos{font-size:50px;}
+#title_quemsomos{font-size:45px;}
 #subtitle_quemsomos{font-size: 22px;text-align: justify;letter-spacing: 2;}
-.quemsomos{text-justify: auto;padding-left:6em;margin-right: 110px;}
+.quemsomos{text-justify: auto;padding-left:0em;margin-right: 110px;}
 
-    /*FOTO - PARTICIPANTES*/
-#title_quemsomos_1{font-size:50px;padding-bottom: 25px;}
-#fig{font-size:20px;color: white;}
-.quemsomos_1{text-justify: auto;padding-top: 115px;}
-.rounded-circle{width: 200px;padding: 17px;}
-.img_participantes{padding-bottom: 115px;}
+
 
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:50px;}
+#title-mmv{font-size:45px;}
 .cardd{
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -662,23 +727,24 @@ textarea {resize: none;}
 	transition-duration: 0.2s;
 	-webkit-transition-property: box-shadow, transform;
 	transition-property: box-shadow, transform;
-	background-color: black;width: 380px;height:300px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 0px;margin-top:80px;padding:15px;}
+	background-color: black;width: 320px;height:340px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 190px;margin-top:80px;padding:15px;}
 .cardd:hover, .card:focus, .card:active{  
 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);}
-#title_card{color:white;font-size:44px;letter-spacing: 3px;padding: 15px;}
-.header_card{color:white;font-size:18px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
+#title_card{color:white;font-size:42px;letter-spacing: 3px;padding: 15px;}
+.header_card{color:white;font-size:17px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
           
-.card_1{margin-left:0px;margin-top:50px;}
+.card_1{margin-left:190px;margin-top:50px;}
 .card-mvv_1:hover{border:solid yellow;}
           
-.card_2{margin-left:0px;margin-top:50px;}
-.card-mvv_2:hover{border:solid yellow;}    
+.card_2{margin-left:190px;margin-top:50px;}
+.card-mvv_2:hover{border:solid yellow;} 
+ 
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */ 
-#title_quemsomos{font-size:50px;}  
-#servicos{margin-bottom: 50px;margin-top:0px;text-align:justify;}
+#title_quemsomos{font-size:45px;}  
+#servicos{margin-bottom: 0px;margin-top:0px;text-align:justify;}
 .title-servicos{font-size:30px;padding-bottom:15px;letter-spacing: 1px;}
 .subtitle-servicos{font-size:20px; width: 19em;}
 .cont_3{height: 850px;padding-top:0px;margin-top: 15px; text-align: left;}
@@ -689,13 +755,13 @@ textarea {resize: none;}
 .tres{margin-left:0px;margin-top:-160px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
-.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:90px;width: 11em;}
-.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:90px;width: 18em;}
-.container-formulario{margin-top:80px;margin-left: 90px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 1000px;margin-bottom: 100px;margin-top: 0px;}
+.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:190px;width: 11em;}
+.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 18em;}
+.container-formulario{margin-top:80px;margin-left: 190px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+#contato{height: 850px;margin-bottom: 100px;margin-top: 0px;}
 #title-forms{color:white;}
 
-#texto-contato{margin-top: 100px;}
+#texto-contato{margin-top: 0px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
 textarea {resize: none;}
 .form-label {
@@ -725,53 +791,15 @@ textarea {resize: none;}
 
 @media screen and (min-width:760px)
 {
-/*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:50px;}
-.cardd{
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-transition-duration: 0.3s;
-	transition-duration: 0.2s;
-	-webkit-transition-property: box-shadow, transform;
-	transition-property: box-shadow, transform;
-	background-color: black;width: 380px;height:300px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 0px;margin-top:80px;padding:15px;}
-.cardd:hover, .card:focus, .card:active{  
-	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);}
-#title_card{color:white;font-size:44px;letter-spacing: 3px;padding: 15px;}
-.header_card{color:white;font-size:18px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
-          
-.card_1{margin-left:0px;margin-top:50px;}
-.card-mvv_1:hover{border:solid yellow;}
-          
-.card_2{margin-left:0px;margin-top:50px;}
-.card-mvv_2:hover{border:solid yellow;} 
-
-/*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */ 
-#title_quemsomos{font-size:50px;}  
-#servicos{margin-bottom: 50px;margin-top:0px;text-align:justify;}
-.title-servicos{font-size:30px;padding-bottom:15px;letter-spacing: 1px;}
-.subtitle-servicos{font-size:20px; width: 19em;}
-.cont_3{height: 850px;padding-top:0px;margin-top: 15px; text-align: left;}
-.servicos{text-justify: auto;}
-.servicos-card{margin:150px;width:455px;height:210px;}
-.um{margin-left:0px;margin-top:80px;}
-.dois{margin-left:0px;margin-top:-150px;}
-.tres{margin-left:0px;margin-top:-160px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
-.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:120px;width: 11em;}
-.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:120px;width: 18em;}
-.container-formulario{margin-top:80px;margin-left: 120px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 1000px;margin-bottom: 100px;margin-top: 0px;}
+.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:220px;width: 11em;}
+.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:220px;width: 18em;}
+.container-formulario{margin-top:80px;margin-left: 220px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+#contato{height: 850px;margin-bottom: 100px;margin-top: 0px;}
 #title-forms{color:white;}
 
-#texto-contato{margin-top: 100px;}
+#texto-contato{margin-top: 0px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
 textarea {resize: none;}
 .form-label {
@@ -801,8 +829,10 @@ textarea {resize: none;}
 
  @media screen and (min-width:850px)
  {
+#title_quemsomos_1{font-size: 50px;}
+
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:52px;}
+#title-mmv{font-size:50px;}
 .cardd{
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -814,7 +844,7 @@ textarea {resize: none;}
 	transition-duration: 0.2s;
 	-webkit-transition-property: box-shadow, transform;
 	transition-property: box-shadow, transform;
-	background-color: black;width: 380px;height:300px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 30px;margin-top:80px;padding:15px;}
+	background-color: black;width: 380px;height:300px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 180px;margin-top:80px;padding:15px;}
 .cardd:hover, .card:focus, .card:active{  
 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 	-webkit-transform: scale(1.1);
@@ -822,10 +852,10 @@ textarea {resize: none;}
 #title_card{color:white;font-size:44px;letter-spacing: 3px;padding: 15px;}
 .header_card{color:white;font-size:18px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
           
-.card_1{margin-left:30px;margin-top:50px;}
+.card_1{margin-left:180px;margin-top:50px;}
 .card-mvv_1:hover{border:solid yellow;}
           
-.card_2{margin-left:30px;margin-top:50px;}
+.card_2{margin-left:180px;margin-top:50px;}
 .card-mvv_2:hover{border:solid yellow;}
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */ 
@@ -840,14 +870,15 @@ textarea {resize: none;}
 .dois{margin-left:50px;margin-top:-150px;}
 .tres{margin-left:50px;margin-top:-160px;}
 
+
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
-.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:150px;width: 11em;}
-.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:150px;width: 18em;}
-.container-formulario{margin-top:80px;margin-left: 150px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 1000px;margin-bottom: 100px;margin-top: 0px;}
+.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:230px;width: 11em;}
+.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:230px;width: 18em;}
+.container-formulario{margin-top:80px;margin-left: 230px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+#contato{height: 850px;margin-bottom: 100px;margin-top: 0px;}
 #title-forms{color:white;}
 
-#texto-contato{margin-top: 100px;}
+#texto-contato{margin-top: 0px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
 textarea {resize: none;}
 .form-label {
@@ -877,7 +908,7 @@ textarea {resize: none;}
    
 @media screen and (min-width:900px){
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:52px;}
+#title-mmv{font-size:50px;}
 .cardd{
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -889,7 +920,7 @@ textarea {resize: none;}
 	transition-duration: 0.2s;
 	-webkit-transition-property: box-shadow, transform;
 	transition-property: box-shadow, transform;
-	background-color: black;width: 380px;height:300px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 120px;margin-top:80px;padding:15px;}
+	background-color: black;width: 380px;height:300px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 230px;margin-top:80px;padding:15px;}
 .cardd:hover, .card:focus, .card:active{  
 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 	-webkit-transform: scale(1.1);
@@ -897,33 +928,33 @@ textarea {resize: none;}
 #title_card{color:white;font-size:44px;letter-spacing: 3px;padding: 15px;}
 .header_card{color:white;font-size:18px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
           
-.card_1{margin-left:120px;margin-top:50px;}
+.card_1{margin-left:230px;margin-top:50px;}
 .card-mvv_1:hover{border:solid yellow;}
           
-.card_2{margin-left:120px;margin-top:50px;}
+.card_2{margin-left:230px;margin-top:50px;}
 .card-mvv_2:hover{border:solid yellow;}
-
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */ 
 #title_quemsomos{font-size:50px;}  
-#servicos{margin-bottom: 50px;margin-top:0px;text-align:justify;}
+#servicos{margin-bottom: 0px;margin-top:0px;text-align:justify;}
 .title-servicos{font-size:30px;padding-bottom:15px;letter-spacing: 1px;}
-.subtitle-servicos{font-size:18px; width: 18em;}
+.subtitle-servicos{font-size:20px; width: 19em;}
 .cont_3{height: 850px;padding-top:0px;margin-top: 15px; text-align: left;}
 .servicos{text-justify: auto;}
 .servicos-card{margin:150px;width:455px;height:210px;}
-.um{margin-left:120px;margin-top:80px;}
-.dois{margin-left:120px;margin-top:-150px;}
-.tres{margin-left:120px;margin-top:-160px;}
+.um{margin-left:50px;margin-top:80px;}
+.dois{margin-left:50px;margin-top:-150px;}
+.tres{margin-left:50px;margin-top:-160px;}
+
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
-.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:150px;width: 11em;}
-.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:150px;width: 18em;}
-.container-formulario{margin-top:80px;margin-left: 150px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 1000px;margin-bottom: 50px;margin-top: 0px;}
+.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:250px;width: 11em;}
+.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:240px;width: 18em;}
+.container-formulario{margin-top:80px;margin-left: 260px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+#contato{height: 800px;margin-bottom: 100px;margin-top: 0px;}
 #title-forms{color:white;}
 
-#texto-contato{margin-top: 100px;}
+#texto-contato{margin-top: 0px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
 textarea {resize: none;}
 .form-label {
@@ -972,16 +1003,16 @@ textarea {resize: none;}
 
 /*SECTION 2 - QUEM SOMOS */
 .cont_2{background-color:black;height: 580px;padding-top:120px; text-align: left;}
-#title_quemsomos{font-size:58px;}
+#title_quemsomos{font-size:50px;}
 #subtitle_quemsomos{font-size: 25px;text-align: justify;letter-spacing: 2;}
-.quemsomos{text-justify: auto;padding-left:8em;padding-right: 180px;}
+.quemsomos{text-justify: auto;padding-left:4em;padding-right: 180px;}
 
 
 /*FOTO - PARTICIPANTES*/
-#title_quemsomos_1{font-size:58px;padding-bottom: 25px;}
+#title_quemsomos_1{font-size:50px;padding-bottom: 25px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:52px;}
+#title-mmv{font-size:50px;}
 .cardd{
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -993,7 +1024,7 @@ textarea {resize: none;}
 	transition-duration: 0.2s;
 	-webkit-transition-property: box-shadow, transform;
 	transition-property: box-shadow, transform;
-	background-color: black;width: 380px;height:300px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 150px;margin-top:120px;padding:15px;}
+	background-color: black;width: 380px;height:300px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 180px;margin-top:120px;padding:15px;}
 .cardd:hover, .card:focus, .card:active{  
 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 	-webkit-transform: scale(1.1);
@@ -1001,25 +1032,60 @@ textarea {resize: none;}
 #title_card{color:white;font-size:44px;letter-spacing: 3px;padding: 15px;}
 .header_card{color:white;font-size:18px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
           
-.card_1{margin-left:150px;margin-top:50px;}
+.card_1{margin-left:180px;margin-top:50px;}
 .card-mvv_1:hover{border:solid yellow;}
           
-.card_2{margin-left:150px;margin-top:50px;}
+.card_2{margin-left:180px;margin-top:50px;}
 .card-mvv_2:hover{border:solid yellow;}
+
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */ 
 #title_quemsomos{font-size:50px;}  
 #servicos{margin-bottom: 50px;margin-top:50px;text-align:justify;}
 .title-servicos{font-size:30px;padding-bottom:15px;letter-spacing: 1px;}
-.subtitle-servicos{font-size:18px; width: 18em;}
+.subtitle-servicos{font-size:20px; width: 18em;}
 .cont_3{height: 850px;padding-top:0px;margin-top: 15px; text-align: left;}
 .servicos{text-justify: auto;}
 .servicos-card{margin:150px;width:455px;height:210px;}
-.um{margin-left:150px;margin-top:80px;}
-.dois{margin-left:150px;margin-top:-150px;}
-.tres{margin-left:150px;margin-top:-160px;}
+.um{margin-left:0px;margin-top:80px;}
+.dois{margin-left:0px;margin-top:-150px;}
+.tres{margin-left:0px;margin-top:-160px;}
 
-.container-footer{margin-top:150px;}
+
+
+/*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
+.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:200px;width: 11em;}
+.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 18em;}
+.container-formulario{margin-top:80px;margin-left: 200px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+#contato{height: 800px;margin-bottom: 100px;margin-top: 0px;}
+#title-forms{color:white;}
+
+#texto-contato{margin-top: 0px;}
+#btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
+textarea {resize: none;}
+.form-label {
+	font-size: px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+	color: #999 
+}
+.container-footer{margin-top:0px;}
 .contato{margin-top:0px;}
 .quemsomos_2{padding-bottom:100px;}
 
@@ -1029,7 +1095,7 @@ textarea {resize: none;}
 /*CONTAINER QUEM SOMOS*/      
 #quemsomos{background-color: black;height:100%;}   
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:52px;}
+#title-mmv{font-size:50px;}
 .cardd{
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -1057,23 +1123,26 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */ 
 #title_quemsomos{font-size:50px;}  
-#servicos{margin-bottom: 100px;margin-top:0px;text-align:justify;}
+#servicos{margin-bottom: 50px;margin-top:0px;text-align:justify;}
 .title-servicos{font-size:30px;padding-bottom:15px;letter-spacing: 1px;}
-.subtitle-servicos{font-size:18px; width: 18em;}
-.cont_3{height: 650px;padding-top:0px;margin-top: 15px; text-align: left;}
+.subtitle-servicos{font-size:20px; width: 18em;}
+.cont_3{height: 850px;padding-top:0px;margin-top: 15px; text-align: left;}
 .servicos{text-justify: auto;}
 .servicos-card{margin:150px;width:455px;height:210px;}
-.um{margin-left:180px;margin-top:80px;}
-.dois{margin-left:180px;margin-top:-150px;}
-.tres{margin-left:180px;margin-top:-160px;}
+.um{margin-left:0px;margin-top:80px;}
+.dois{margin-left:0px;margin-top:-150px;}
+.tres{margin-left:0px;margin-top:-160px;}
+
+
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
-.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:180px;width: 11em;}
-.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:180px;width: 18em;}
-.container-formulario{margin-top:80px;margin-left: 180px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 1000px;margin-bottom: 50px;margin-top: 220px;}
+.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:200px;width: 11em;}
+.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 18em;}
+.container-formulario{margin-top:80px;margin-left: 200px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+#contato{height: 800px;margin-bottom: 100px;margin-top: 0px;}
 #title-forms{color:white;}
-#texto-contato{margin-top: 100px;}
+
+#texto-contato{margin-top: 0px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
 textarea {resize: none;}
 .form-label {
@@ -1111,8 +1180,11 @@ textarea {resize: none;}
  @media screen and (min-width:1140px){
 /*CONTAINER QUEM SOMOS*/      
 #quemsomos{background-color: black;height:100%;} 
+
+#title_quemsomos_1{font-size: 52px;}
+#title_quemsomos{font-size: 52px;}
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:52px;}
+#title-mmv{font-size:52px;}
 .cardd{
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -1187,10 +1259,6 @@ textarea {resize: none;}
 #abhr{display:flex;}
 #achr{display: flex;}
 
-.cont_2{background-color:black;height: 650px;padding-top:150px;margin-top: 15px; text-align: left;}
-#title_quemsomos{font-size:62px;}
-#subtitle_quemsomos{font-size: 30px;text-align: justify;letter-spacing: 2;}
-.quemsomos{text-justify: auto;}
 
 
 
@@ -1198,7 +1266,8 @@ textarea {resize: none;}
 #title_quemsomos_1{font-size:62px;padding-bottom: 25px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:52px;}
+.quemsomos_2{height: 600px;}
+#title-mmv{font-size:52px;}
 .cardd{
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -1226,7 +1295,7 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */ 
 #servicos{margin-bottom: 0px;margin-top:0px;}
-.cont_3{height: 650px;padding-top:0px;text-align: left;}
+.cont_3{height: 450px;padding-top:0px;text-align: left;}
 
 #title_quemsomos{font-size:52px;}  
 
@@ -1241,7 +1310,7 @@ textarea {resize: none;}
 .tres{margin-left:255px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
-#contato{height: 700px;margin-bottom: 50px;margin-top:0px;}
+#contato{height: 650px;margin-bottom: 0px;margin-top:0px;}
 
 .title-contato{font-size:35px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:0px;}
 .subtitle-contato{font-size:23px;text-align:center;letter-spacing: 1.5px;margin-left:0px;}
@@ -1272,15 +1341,17 @@ textarea {resize: none;}
 .js-unhighlight-label {
 	color: #999 
 }
+.container-footer{margin-top:0px;}
   }
 
 
-  	@media screen and (min-width:1300px){
+@media screen and (min-width:1300px){
  /*CONTAINER QUEM SOMOS*/      
 #quemsomos{background-color: black;height:100%;}
 
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:52px;}
+.quemsomos_2{height: 600px;}
+#title-mmv{font-size:52px;}
 .cardd{
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -1292,7 +1363,7 @@ textarea {resize: none;}
 	transition-duration: 0.2s;
 	-webkit-transition-property: box-shadow, transform;
 	transition-property: box-shadow, transform;
-	background-color: black;width: 325px;height:300px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: -3em;margin-top:120px;padding:15px;}
+	background-color: black;width: 305px;height:290px;border-radius:30px;border: 3px solid white;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);margin-left: 0px;margin-top:120px;padding:15px;}
 .cardd:hover, .card:focus, .card:active{  
 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 	-webkit-transform: scale(1.1);
@@ -1300,31 +1371,37 @@ textarea {resize: none;}
 #title_card{color:white;font-size:40px;letter-spacing: 3px;padding: 15px;}
 .header_card{color:white;font-size:15px;letter-spacing: 1px;text-align:justify;padding:0px 20px 20px 20px;}
           
-.card_1{margin-left:50px;margin-top:50px;}
+.card_1{margin-left:110px;margin-top:50px;}
 .card-mvv_1:hover{border:solid yellow;}
           
-.card_2{margin-left:150px;margin-top:120px;}
+.card_2{margin-left:220px;margin-top:120px;}
 .card-mvv_2:hover{border:solid yellow;}
 
-/*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */   
+
+/*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */ 
 #servicos{margin-bottom: 0px;margin-top:0px;}
-.cont_3{height: 650px;padding-top:0px;text-align: left;}
+.cont_3{height: 450px;padding-top:0px;text-align: left;}
+
+#title_quemsomos{font-size:52px;}  
 
 .title-servicos{font-size:28px;letter-spacing: 1px;}
 .subtitle-servicos{font-size:23px;width: 14em;}
 
+
 .servicos{text-justify: auto;}
 .servicos-card{margin:150px;width:455px;height:210px;}
-.um{margin-left:-5em;}
-.dois{margin-left:30px;}
-.tres{margin-left:135px;}
+.um{margin-left:-2em;}
+.dois{margin-left:110px;}
+.tres{margin-left:255px;}
+
 
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
+#contato{height: 650px;margin-bottom: 0px;margin-top:0px;}
+
 .title-contato{font-size:35px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:0px;}
 .subtitle-contato{font-size:23px;text-align:center;letter-spacing: 1.5px;margin-left:0px;}
-.container-formulario{margin-top:80px;margin-left: 120px;background-color:black;width:400px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 700px;margin-bottom: 50px;margin-top:0px;}
+.container-formulario{margin-top:80px;margin-left: 150px;background-color:black;width:350px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
 #title-forms{color:white;}
 #texto-contato{margin-top: 100px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
@@ -1351,6 +1428,8 @@ textarea {resize: none;}
 .js-unhighlight-label {
 	color: #999 
 }
+.container-footer{margin-top:0px;}
+  }
 
   }
  
@@ -1358,7 +1437,7 @@ textarea {resize: none;}
 /*CONTAINER QUEM SOMOS*/      
 #quemsomos{height:100%;}      
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:52px;}
+#title-mmv{font-size:52px;}
 .cardd{
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -1386,7 +1465,7 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */   
 #servicos{margin-bottom: 0px;margin-top:0px;}
-.cont_3{height: 650px;padding-top:0px; text-align: left;}
+.cont_3{height: 450px;padding-top:0px; text-align: left;}
 
 .title-servicos{font-size:30px;letter-spacing: 1px;}
 .subtitle-servicos{font-size:23px;width: 14em;}
@@ -1402,7 +1481,7 @@ textarea {resize: none;}
 .title-contato{font-size:35px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:0px;}
 .subtitle-contato{font-size:23px;text-align:center;letter-spacing: 1.5px;margin-left:0px;}
 .container-formulario{margin-top:80px;margin-left: 150px;background-color:black;width:450px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 700px;margin-bottom: 50px;margin-top: 0px;}
+#contato{height: 700px;margin-bottom: 0px;margin-top: 0px;}
 #title-forms{color:white;}
 #texto-contato{margin-top: 100px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
@@ -1430,12 +1509,14 @@ textarea {resize: none;}
 	color: #999 
 }
 
+.container-footer{margin-top:0px;}
+
 }
 
 
 @media screen and (min-width:1500px){
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:52px;}
+#title-mmv{font-size:52px;}
 .cardd{
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -1468,7 +1549,7 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */   
 #servicos{margin-bottom: 0px;margin-top:0px;}
-.cont_3{height: 650px;padding-top:0px; text-align: left;}
+.cont_3{height: 450px;padding-top:0px; text-align: left;}
 
 .title-servicos{font-size:32px;letter-spacing: 1px;}
 .subtitle-servicos{font-size:23px;width: 14em;}
@@ -1483,7 +1564,7 @@ textarea {resize: none;}
 .title-contato{font-size:35px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:0px;}
 .subtitle-contato{font-size:23px;text-align:center;letter-spacing: 1.5px;margin-left:0px;}
 .container-formulario{margin-top:80px;margin-left: 150px;background-color:black;width:450px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 700px;margin-bottom: 50px;margin-top: 0px;}
+#contato{height: 700px;margin-bottom: 0px;margin-top: 0px;}
 #title-forms{color:white;}
 #texto-contato{margin-top: 100px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
@@ -1510,13 +1591,14 @@ textarea {resize: none;}
 .js-unhighlight-label {
 	color: #999 
 }
+.container-footer{margin-top:0px;}
 
 }
 @media screen and (min-width:1600px){
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */   
 #servicos{margin-bottom: 0px;margin-top:0px;}
-.cont_3{height: 650px;padding-top:0px; text-align: left;}
+.cont_3{height: 450px;padding-top:0px; text-align: left;}
 
 .title-servicos{font-size:36px;letter-spacing: 1px;}
 .subtitle-servicos{font-size:23px;width: 16em;}
@@ -1530,7 +1612,7 @@ textarea {resize: none;}
 .title-contato{font-size:45px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;}
 .subtitle-contato{font-size:28px;text-align:center;letter-spacing: 1.5px;}
 .container-formulario{margin-top:80px;margin-left: 250px;background-color:black;width:450px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 700px;margin-bottom: 50px;}
+#contato{height: 700px;margin-bottom: 0px;}
 #title-forms{color:white;}
 #texto-contato{margin-top: 100px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
@@ -1556,7 +1638,8 @@ textarea {resize: none;}
 }
 .js-unhighlight-label {
 	color: #999 
-}	
+}
+.container-footer{margin-top:0px;}	
 }
 @media screen and (min-width:1800px){
 
@@ -1574,7 +1657,7 @@ textarea {resize: none;}
 .participantes{width: 220px; height: 205px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
-#title-mmv{letter-spacing: 3px;font-size:52px;}
+#title-mmv{font-size:52px;}
 .cardd{
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -1603,7 +1686,8 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */   
 #servicos{margin-bottom: 0px;margin-top:120px;}
-.cont_3{height: 650px;padding-top:0px; text-align: left;}
+.cont_3{height: 450px;padding-top:0px; text-align: left;}
+#title_servicos{letter-spacing: 0px;font-size: 52px;}
 
 .title-servicos{font-size:38px;letter-spacing: 1px;}
 .subtitle-servicos{font-size:25px;width: 16em;}
@@ -1619,7 +1703,7 @@ textarea {resize: none;}
 .title-contato{font-size:45px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;}
 .subtitle-contato{font-size:28px;text-align:center;letter-spacing: 1.5px;}
 .container-formulario{margin-top:50px;margin-left: 250px;background-color:black;width:550px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 700px;margin-bottom: 50px; margin-top: 0px;}
+#contato{height: 700px;margin-bottom: 0px; margin-top: 0px;}
 #title-forms{color:white;}
 #texto-contato{margin-top: 100px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
@@ -1646,8 +1730,8 @@ textarea {resize: none;}
 .js-unhighlight-label {
 	color: #999 
 }
+.container-footer{margin-bottom: 30px;background-color:;margin-top:0px;}
 
-.container-footer{margin-bottom: 30px;background-color:;}
 #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 }
