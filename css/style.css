@@ -56,13 +56,17 @@ html {scroll-behavior: smooth;}
 
 /*QUEM SOMOS */
 #quemsomos{height:2000px;}
+
+
 /*HR*/
 #aahr{display:flex;}
 .txt_ahr{padding-left:110px;}
 .ahr{width:80px;height: 5px;background-color:white;margin-left: -200px;margin-top: 35px;}
 #abhr{display:flex;}
 #achr{display: flex;}
+
 #adhr{display:flex;}
+
 
 .quemsomos{text-justify: auto;}
 /*FOTO - PARTICIPANTES*/
@@ -89,15 +93,10 @@ html {scroll-behavior: smooth;}
 
 
 
-
-
-
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
 .container-footer{margin-bottom: 30px;background-color:;}
 #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
-
-
 
 
 
@@ -1509,7 +1508,9 @@ textarea {resize: none;}
 .js-unhighlight-label {
 	color: #999 
 }
+
 .container-footer{margin-top:0px;}
+
 }
 
 
@@ -1730,9 +1731,11 @@ textarea {resize: none;}
 	color: #999 
 }
 .container-footer{margin-bottom: 30px;background-color:;margin-top:0px;}
+
 #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 }
  
  }
+
 
