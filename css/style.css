@@ -12,8 +12,8 @@ html {scroll-behavior: smooth;}
 .menu:hover{font-size:22px;color: white; letter-spacing: 1.5px;font-weight: 600;}
 .quemsomos_2{padding-bottom:220px;}
 
-/*TESTE
-#home{background-color: teal;}
+/*TESTE*/
+
 .quemsomos_1{background-color: tomato;}
 .quemsomos_2{background-color: violet;}
 .cont_3{background-color: yellowgreen;}
@@ -230,6 +230,7 @@ textarea {resize: none;}
 .contato-nav{ margin-top:15px;}
 
 /*SECTION 1 - BANNER*/
+#home{background-color: blueviolet;width: 100%;}
 .cont_1{background-color:black;padding-top: 180px;height: 620px;}
 #title_banner{font-size: 36px;letter-spacing: 7px;}
 #subtitle_banner{font-size: 10px;margin-left: 1em;padding-top: 5px;}
@@ -243,7 +244,7 @@ textarea {resize: none;}
 .cont_2{background-color:black;height: 580px;padding-top:120px; text-align: left;}
 #title_quemsomos{font-size:35px;}
 #subtitle_quemsomos{font-size: 17px;text-align: justify;letter-spacing: 2;}
-.quemsomos{text-justify: auto;padding-left:1em;}
+.quemsomos{text-justify: auto;padding-left:1em;margin-right: 0px;}
 
     /*FOTO - PARTICIPANTES*/
 #title_quemsomos_1{font-size:35px;padding-bottom: 25px;}
@@ -440,7 +441,7 @@ textarea {resize: none;}
 .cont_2{background-color:black;height: 580px;padding-top:120px;}
 #title_quemsomos{font-size:37px;}
 #subtitle_quemsomos{font-size: 19px;text-align: justify;letter-spacing: 2;}
-.quemsomos{text-justify: auto;padding-left:1em;margin-right: 50px;}
+.quemsomos{text-justify: auto;padding-left:1em;margin-right: 0px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
 #title-mmv{letter-spacing: 3px;font-size:37px;}
@@ -540,7 +541,7 @@ textarea {resize: none;}
 .cont_2{background-color:black;height: 580px;padding-top:120px; text-align: left;}
 #title_quemsomos{font-size:45px;}
 #subtitle_quemsomos{font-size: 17px;text-align: justify;letter-spacing: 2;}
-.quemsomos{text-justify: auto;padding-left:5em;margin-right: 60px;}
+.quemsomos{text-justify: auto;padding-left:5em;margin-right: 0px;}
 
     /*FOTO - PARTICIPANTES*/
 #title_quemsomos_1{font-size:45px;padding-bottom: 25px;}
@@ -974,7 +975,7 @@ textarea {resize: none;}
 .cont_2{background-color:black;height: 580px;padding-top:120px; text-align: left;}
 #title_quemsomos{font-size:58px;}
 #subtitle_quemsomos{font-size: 25px;text-align: justify;letter-spacing: 2;}
-.quemsomos{text-justify: auto;padding-left:8em;margin-right: 180px;}
+.quemsomos{text-justify: auto;padding-left:8em;padding-right: 180px;}
 
 
 /*FOTO - PARTICIPANTES*/
@@ -1601,7 +1602,7 @@ textarea {resize: none;}
 
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */   
-#servicos{margin-bottom: 0px;margin-top:0px;}
+#servicos{margin-bottom: 0px;margin-top:120px;}
 .cont_3{height: 650px;padding-top:0px; text-align: left;}
 
 .title-servicos{font-size:38px;letter-spacing: 1px;}
