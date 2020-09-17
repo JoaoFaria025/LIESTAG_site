@@ -1515,8 +1515,7 @@ textarea {resize: none;}
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
 .title-contato{font-size:35px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:0px;}
 .subtitle-contato{font-size:23px;text-align:center;letter-spacing: 1.5px;margin-left:0px;}
-.container-formulario{margin-top:80px;margin-left: 150px;background-color:black;width:450px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 700px;margin-bottom: 0px;margin-top: 0px;}
+.container-formulario{margin-top:80px;margin-left: 150px;background-color:black;width:350px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
 #title-forms{color:white;}
 #texto-contato{margin-top: 100px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
@@ -1652,10 +1651,10 @@ textarea {resize: none;}
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
 .title-contato{font-size:45px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;}
 .subtitle-contato{font-size:28px;text-align:center;letter-spacing: 1.5px;}
-.container-formulario{margin-top:80px;margin-left: 250px;background-color:black;width:450px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+.container-formulario{margin-top:80px;margin-left: 150px;background-color:black;width:450px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
 #contato{height: 700px;margin-bottom: 0px;}
 #title-forms{color:white;}
-#texto-contato{margin-top: 100px;}
+#texto-contato{margin-top: 100px;margin-left: 100px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
 textarea {resize: none;}
 .form-label {
@@ -1694,7 +1693,6 @@ textarea {resize: none;}
 #title_quemsomos_1{letter-spacing: 3px;font-size:52px;padding-bottom: 25px;}
 #fig{font-size:20px;color: white;}
 .quemsomos_1{text-justify: auto;padding-top: 220px;}
-.rounded-circle{width: 200px;padding: 17px;}
 .img_participantes{padding-bottom: 220px;}
 .participantes{width: 220px; height: 205px;}
 
@@ -1741,15 +1739,14 @@ textarea {resize: none;}
 .tres{margin-left:230px;}
 .quatro{margin-top: 0px;}
 .cinco{margin-top: 0px;}
-
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */ 
 
 .title-contato{font-size:45px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;}
 .subtitle-contato{font-size:28px;text-align:center;letter-spacing: 2px;}
-.container-formulario{margin-top:50px;margin-left: 250px;background-color:black;width:550px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+.container-formulario{margin-top:50px;margin-left: 150px;background-color:black;width:550px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
 #contato{height: 700px;margin-bottom: 0px; margin-top: 0px;}
 #title-forms{color:white;}
-#texto-contato{margin-top: 100px;}
+#texto-contato{margin-top: 100px; margin-left: 100px;}
 #btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
 textarea {resize: none;}
 .form-label {
