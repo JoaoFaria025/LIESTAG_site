@@ -1941,13 +1941,13 @@ textarea {resize: none;}
 
 
 
-.title-servicos{font-size:38px;letter-spacing: 1px;text-align: center;}
-.subtitle-servicos{font-size:25px;letter-spacing: 1.5px;text-align: center;width: 18em;}
+.title-servicos{font-size:35px;letter-spacing: 1px;text-align: center;background-color: black;}
+.subtitle-servicos{font-size:25px;letter-spacing: 1.5px;text-align: center;width: 90%;margin: 5px;}
 
 
 
 .servicos{text-justify: auto;}
-.servicos-card{width:455px;height:210px;}
+.servicos-card{width:455px;height:210px;background-color: black;}
 .um{margin-left:0px;}
 .dois{margin-left:110px;}
 .tres{margin-left:230px;}
