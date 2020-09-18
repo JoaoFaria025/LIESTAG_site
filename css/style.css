@@ -80,7 +80,7 @@ html {scroll-behavior: smooth;}
 
 
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
-.container-footer{margin-bottom: 30px;background-color:;}
+.container-footer{margin-bottom: 30px;background-color:black;}
 #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 
@@ -108,8 +108,8 @@ html {scroll-behavior: smooth;}
 .contato-nav{margin-left:0px;margin-top: 15px;}
 
 /*SECTION 1 - BANNER*/
-#home{background-color: ;height: 750px;}
-.cont_1{background-color:;padding-top: 180px;height: 620px;}
+#home{background-color:black ;height: 750px;}
+.cont_1{background-color:black;padding-top: 180px;height: 620px;}
 #title_banner{font-size: 36px;letter-spacing: 7px;}
 #subtitle_banner{font-size: 20px;margin-left: 1em;padding-top: 5px;}
 #info_banner{font-size:28px;padding-top: 115px;}
@@ -119,11 +119,11 @@ html {scroll-behavior: smooth;}
 #cont-arrow{display: inline;}
 
 /*SECTION 2 - QUEM SOMOS */
-.cont_2{background-color:;height:100%;padding-top:100px; text-align: left;width:100%;}
+.cont_2{background-color:black;height:100%;padding-top:100px; text-align: left;width:100%;}
 #title_quemsomos{font-size:25px;text-align: left;}
-#quemsomos{background-color: ;width:100%;height: 100%;}
+#quemsomos{background-color:black ;width:100%;height: 100%;}
 #subtitle_quemsomos{font-size: 17px;text-align: justify;letter-spacing: 2;}
-.quemsomos{text-justify: auto;padding-left:0em;width:100%;background-color: ;}
+.quemsomos{text-justify: auto;padding-left:0em;width:100%;background-color: black;}
 
     /*FOTO - PARTICIPANTES*/
 #title_quemsomos_1{font-size:25px;padding-bottom: 25px;letter-spacing: 0px;text-align: left;}
@@ -179,7 +179,7 @@ html {scroll-behavior: smooth;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
 .title-contato{font-size:25px;padding-bottom:15px;letter-spacing: 1.5px;text-align:left;padding-bottom: 10px;margin-left:0px;}
-.subtitle-contato{font-size:18px;text-align:left;letter-spacing: 1.5px;margin-left:0px;background-color: ;}
+.subtitle-contato{font-size:18px;text-align:left;letter-spacing: 1.5px;margin-left:0px;background-color:black ;}
 .container-formulario{margin-top:80px;margin-left: 10px;background-color:black;width:300px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
 #contato{height: 950px;margin-bottom: 0px;margin-top: 0px;}
 .contato{padding-top: 0px;}
@@ -211,7 +211,7 @@ textarea {resize: none;}
 }
 
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
-.container-footer{margin-bottom: 30px;background-color:;}
+.container-footer{margin-bottom: 30px;background-color:black;}
 #footer_logo{width:220px;padding: 11px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 15px;padding-bottom: 7px;margin-top:0px;}
 
@@ -279,7 +279,7 @@ textarea {resize: none;}
 #servicos{margin-bottom: 0px;margin-top:0px;text-align:justify;}
 .title-servicos{font-size:25px;padding-bottom:15px;letter-spacing: 1px;}
 .subtitle-servicos{font-size:18px; width: 16em;letter-spacing: 1.5px;}
-.cont_3{height: 1290px;padding-top:0px;margin-top: 15px; text-align: left;}
+.cont_3{height: 1250px;padding-top:0px;margin-top: 15px; text-align: left;}
 .servicos{text-justify: auto;}
 .servicos-card{margin:150px;width:100%;height:210px;}
 .um{margin-left:0px;margin-top:80px;}
@@ -323,7 +323,7 @@ textarea {resize: none;}
 }
 
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
-.container-footer{margin-bottom: 30px;background-color:;}
+.container-footer{margin-bottom: 30px;background-color:black;}
 #footer_logo{width:220px;padding: 11px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 20px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 
@@ -413,7 +413,7 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
 .title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;background-color: black;margin-left: 0px;}
-.subtitle-contato{font-size:16px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: ;}
+.subtitle-contato{font-size:16px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color:black ;}
 .contato-card{background-color: black;width: 400px;height: 190px;margin-left: -30px;}
 
 .container-formulario{margin-top:10px;margin-left: 0px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
@@ -446,7 +446,7 @@ textarea {resize: none;}
 	color: #999 
 }
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
-.container-footer{margin-bottom: 10px;background-color:;}
+.container-footer{margin-bottom: 10px;background-color:black;}
 #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 
@@ -513,7 +513,7 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
 .title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;background-color: black;margin-left: 0px;}
-.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: ;}
+.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
 .contato-card{background-color: black;width: 400px;height: 190px;margin-left: -10px;}
 
 .container-formulario{margin-top:10px;margin-left: 25px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
@@ -546,7 +546,7 @@ textarea {resize: none;}
 	color: #999 
 }
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
-.container-footer{margin-bottom: 10px;background-color:;}
+.container-footer{margin-bottom: 10px;background-color:black;}
 #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 
@@ -638,7 +638,7 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
 .title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;background-color: black;margin-left: 0px;}
-.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: ;}
+.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
 .contato-card{background-color: black;width: 400px;height: 190px;margin-left: 3em;}
 
 .container-formulario{margin-top:10px;margin-left: 85px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
@@ -671,7 +671,7 @@ textarea {resize: none;}
 	color: #999 
 }
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
-.container-footer{margin-bottom: 10px;background-color:;}
+.container-footer{margin-bottom: 10px;background-color:black;}
 #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 
@@ -731,7 +731,7 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
 .title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;background-color: black;margin-left: 0px;}
-.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: ;}
+.subtitle-contato{font-size:18px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
 .contato-card{background-color: black;width: 400px;height: 190px;margin-left: 6em;}
 
 .container-formulario{margin-top:10px;margin-left: 115px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
@@ -764,7 +764,7 @@ textarea {resize: none;}
 	color: #999 
 }
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
-.container-footer{margin-bottom: 10px;background-color:;}
+.container-footer{margin-bottom: 10px;background-color:black;}
 #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 
@@ -846,7 +846,7 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
 .title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;background-color: black;margin-left: 0px;}
-.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: ;}
+.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
 .contato-card{background-color: black;width: 400px;height: 190px;margin-left: 8em;}
 
 .container-formulario{margin-top:10px;margin-left: 160px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
@@ -879,7 +879,7 @@ textarea {resize: none;}
 	color: #999 
 }
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
-.container-footer{margin-bottom: 10px;background-color:;}
+.container-footer{margin-bottom: 10px;background-color:black;}
 #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 
@@ -912,7 +912,7 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
 .title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;background-color: black;margin-left: 0px;}
-.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: ;}
+.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color:black ;}
 .contato-card{background-color: black;width: 400px;height: 190px;margin-left: 9em;}
 
 .container-formulario{margin-top:10px;margin-left: 180px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
@@ -945,7 +945,7 @@ textarea {resize: none;}
 	color: #999 
 }
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
-.container-footer{margin-bottom: 10px;background-color:;}
+.container-footer{margin-bottom: 10px;background-color:black;}
 #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 
@@ -1007,7 +1007,7 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
 .title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;background-color: black;margin-left: 0px;}
-.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: ;}
+.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
 .contato-card{background-color: black;width: 400px;height: 190px;margin-left: 12em;}
 
 .container-formulario{margin-top:10px;margin-left: 230px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
@@ -1040,7 +1040,7 @@ textarea {resize: none;}
 	color: #999 
 }
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
-.container-footer{margin-bottom: 10px;background-color:;}
+.container-footer{margin-bottom: 10px;background-color:black;}
 #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 
@@ -1099,7 +1099,7 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
 .title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;background-color: black;margin-left: 0px;}
-.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: ;}
+.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
 .contato-card{background-color: black;width: 400px;height: 190px;margin-left: 16em;}
 
 .container-formulario{margin-top:10px;margin-left: 300px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
@@ -1132,7 +1132,7 @@ textarea {resize: none;}
 	color: #999 
 }
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
-.container-footer{margin-bottom: 10px;background-color:;}
+.container-footer{margin-bottom: 10px;background-color:black;}
 #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 
@@ -1220,7 +1220,7 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
 .title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;background-color: black;margin-left: 0px;}
-.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: ;}
+.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
 .contato-card{background-color: black;width: 400px;height: 190px;margin-left: 10em;}
 
 .container-formulario{margin-top:10px;margin-left: 185px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
@@ -1253,7 +1253,7 @@ textarea {resize: none;}
 	color: #999 
 }
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
-.container-footer{margin-bottom: 10px;background-color:;}
+.container-footer{margin-bottom: 10px;background-color:black;}
 #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 
@@ -1313,7 +1313,7 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
 .title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;background-color: black;margin-left: 0px;}
-.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: ;}
+.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
 .contato-card{background-color: black;width: 400px;height: 190px;margin-left: 15em;}
 .container-formulario{margin-top:80px;margin-left: 265px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
 
@@ -1410,8 +1410,8 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - CONTATO ✱✱✱✱✱✱✱     */   
 .title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;}
-.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: ;}
-.contato-card{background-color: ;width: 400px;height: 190px;margin-left: 15em;}
+.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
+.contato-card{background-color:black ;width: 400px;height: 190px;margin-left: 15em;}
 
 .container-formulario{margin-top:10px;margin-left: 270px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
 #contato{height: 1050px;margin-bottom: 100px;margin-top: 0px;}
@@ -1444,7 +1444,7 @@ textarea {resize: none;}
 }
 
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
-.container-footer{margin-bottom: 10px;background-color:;}
+.container-footer{margin-bottom: 10px;background-color:black;}
 #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 
@@ -1991,10 +1991,9 @@ textarea {resize: none;}
 .js-unhighlight-label {
 	color: #999 
 }
-.container-footer{margin-bottom: 30px;background-color:;margin-top:0px;}
+.container-footer{margin-bottom: 30px;background-color:black;margin-top:0px;}
 #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 }
- 
- }
+
 
