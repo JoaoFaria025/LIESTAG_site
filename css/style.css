@@ -417,7 +417,7 @@ textarea {resize: none;}
 .contato-card{background-color: black;width: 400px;height: 190px;margin-left: -30px;}
 
 .container-formulario{margin-top:10px;margin-left: 0px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 950px;margin-bottom: 100px;margin-top: 0px;}
+#contato{height: 950px;margin-bottom: 100px;margin-top: -95px;}
 #title-forms{color:white;}
 
 
@@ -517,7 +517,7 @@ textarea {resize: none;}
 .contato-card{background-color: black;width: 400px;height: 190px;margin-left: -10px;}
 
 .container-formulario{margin-top:10px;margin-left: 25px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 950px;margin-bottom: 100px;margin-top: 0px;}
+#contato{height: 950px;margin-bottom: 100px;margin-top: -95px;}
 #title-forms{color:white;}
 
 
@@ -555,7 +555,7 @@ textarea {resize: none;}
 
 @media screen and (min-width:480px){
 .container-formulario{margin-top:10px;margin-left: 50px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 950px;margin-bottom: 100px;margin-top: 0px;}
+#contato{height: 950px;margin-bottom: 100px;margin-top: -95px;}
 }
 
 @media screen and (min-width:550px){
@@ -642,7 +642,7 @@ textarea {resize: none;}
 .contato-card{background-color: black;width: 400px;height: 190px;margin-left: 3em;}
 
 .container-formulario{margin-top:10px;margin-left: 85px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 950px;margin-bottom: 100px;margin-top: 0px;}
+#contato{height: 950px;margin-bottom: 100px;margin-top: -55px;}
 #title-forms{color:white;}
 
 
@@ -735,7 +735,7 @@ textarea {resize: none;}
 .contato-card{background-color: black;width: 400px;height: 190px;margin-left: 6em;}
 
 .container-formulario{margin-top:10px;margin-left: 115px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 950px;margin-bottom: 100px;margin-top: 0px;}
+#contato{height: 950px;margin-bottom: 100px;margin-top: -55px;}
 #title-forms{color:white;}
 
 
@@ -773,7 +773,7 @@ textarea {resize: none;}
 
 @media screen and (min-width:660px){
 	.container-formulario{margin-top:10px;margin-left: 135px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-
+	
 }
 @media screen and (min-width:700px){
 /*SECTION 1 - BANNER*/
@@ -850,7 +850,7 @@ textarea {resize: none;}
 .contato-card{background-color: black;width: 400px;height: 190px;margin-left: 8em;}
 
 .container-formulario{margin-top:10px;margin-left: 160px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 950px;margin-bottom: 100px;margin-top: 0px;}
+#contato{height: 950px;margin-bottom: 100px;margin-top: -90px;}
 #title-forms{color:white;}
 
 
@@ -916,7 +916,7 @@ textarea {resize: none;}
 .contato-card{background-color: black;width: 400px;height: 190px;margin-left: 9em;}
 
 .container-formulario{margin-top:10px;margin-left: 180px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
-#contato{height: 950px;margin-bottom: 100px;margin-top: 0px;}
+#contato{height: 950px;margin-bottom: 100px;margin-top: -90px;}
 #title-forms{color:white;}
 
 
