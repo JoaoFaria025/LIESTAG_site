@@ -1,0 +1,56 @@
+/*----- RESET ----- */
+*{ border:none; outline:none; font-family: 'PT Sans', sans-serif;margin: 0px;}
+a {text-decoration:none;}
+ul{list-style: none;}
+
+/*LAYOUT*/
+.container-fluid{width: 100%; height:600px;color:white;}
+.menu{font-size:22px;color: white; letter-spacing: 1.5px;font-weight: 600;}
+.menu:hover{font-size:22px;color: white; letter-spacing: 1.5px;font-weight: 600;}
+.quemsomos_2{padding-bottom:220px;}
+
+/*TESTE
+
+.quemsomos_1{background-color: tomato;}
+.quemsomos_2{background-color: violet;}
+.cont_3{background-color: yellowgreen;}
+.contato{background-color: aqua;}
+
+.container-footer{background-color: blue;}
+/*     ✱✱✱✱✱✱✱SECTION NAV ✱✱✱✱✱✱✱      */
+#edit{background-color: black;padding: 15px;}
+#botao{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 160px;}
+.contato-nav{ margin-left: 150px;}
+#aba{color: yellow;}
+
+
+/*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
+.cont_1{background-color:;padding-top: 320px;height: 850px;}
+#title_banner{font-size: 66px;letter-spacing: 5px;}
+#subtitle_banner{font-size: 33px;margin-left: 27em;}
+#info_banner{font-size:38px;padding-top: 175px;}
+#arrow{width: 15px;padding-top: 15px;-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;}
+#arrow:hover{	box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.2);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);}
+#arrow_1{margin-left: 0em;}
+#sociais{width:60px;padding-top: 15px;float:right;}
+#cont-arrow{display: inline;}
+/*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
+.container-footer{margin-bottom: 30px;background-color:black;}
+#footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
+#subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+
+
+
+
+
