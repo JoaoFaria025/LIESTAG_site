@@ -2,6 +2,7 @@
 *{ border:none; outline:none; font-family: 'PT Sans', sans-serif;margin: 0px;}
 a {text-decoration:none;}
 ul{list-style: none;}
+html {scroll-behavior: smooth;}
 
 /*LAYOUT*/
 .container-fluid{width: 100%; height:600px;color:white;}
@@ -21,255 +22,414 @@ ul{list-style: none;}
 /*TESTE
 .cont_1{background-color: red;}
 .cont_2{background-color: blue;}
+.sist-op_1{background-color: darkgrey;}
+.sist-op_2{background-color: darkgrey;}
+#cont-sist{background-color: darkkhaki;}
+#title_banner{background-color: darkkhaki;}
+.banner_1-info{background-color: darkkhaki;}
+.img-sist-op{background-color: darkkhaki;}
+#mobile_div{background-color: darkkhaki;}
 /**/
 
 
 
 
+/*
+      ✱✱✱✱✱✱✱ᴍᴇᴅɪᴀ ǫᴜᴇʀɪᴇs✱✱✱✱✱✱✱
+*/
+@media screen and (min-width:125px){/*FONT + BTN OK*/
+      /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
+      .cont_1{padding-top: 150px;height:1000px;}
+      
+      #title_banner{font-size: 25px;letter-spacing: 5px;background-color: none;}
+      .banner_1-info{background-color: none;margin-left: ;margin-top: 2em;width: 19em;height: 200px;background-color: none;}
+      #title_banner_2{font-size: 25px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+      #subtitle_banner{font-size: 18px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
+      #botao-sist-2{font-size:17px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 320px;height: 50px;}
+      
+      #mobile{width:380px;margin-left: -0em;}
+      #mobile_div{background-color:none;margin-top: 3em;padding-left: -0em;}
+      
+      /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
+      .cont_2{padding-top: 50px;height:1350px;}
+      .conjunto-sist{background-color: none;height: 800px;}
+      #botão{background-color: none;}
+      .sist-op_1{background-color: none;margin-top: 2em;width: 19em;height: 250px;background-color: none;}
+      .sist-op_2{background-color: none;margin-top: 12em;width: 19em;height: 250px;background-color: none;}
+      
+      #cont-sist{background-color: none;margin-top: 15em;}
+      #botao-sist{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 340px;height: 50px;}
+      
+      #title_banner_1{font-size: 29px;letter-spacing: 1.5px;width: 10em;margin-bottom:0.5em;background-color: none;}
+  
+      
+      
+      .img-sist-op{width: 190px;height: 250px;background-color: none;}
+      .img-sist{width: 100%;}
+      
+  /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
+  .container-footer{margin-bottom: 10px;background-color:black;}
+  #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
+  #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+  }
+@media screen and (min-width:375px){/*FONT + BTN OK*/
+      /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
+      .cont_1{padding-top: 150px;height:1000px;}
+      
+      #title_banner{font-size: 25px;letter-spacing: 5px;background-color: none;}
+      .banner_1-info{background-color: none;margin-left: ;margin-top: 2em;width: 19em;height: 200px;background-color: none;}
+      #title_banner_2{font-size: 25px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+      #subtitle_banner{font-size: 18px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
+      #botao-sist-2{font-size:17px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 320px;height: 50px;}
+      
+      #mobile{width:380px;margin-left: -0em;}
+      #mobile_div{background-color:none;margin-top: 3em;padding-left: -0em;}
+      
+      /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
+      .cont_2{padding-top: 50px;height:1350px;}
+      .conjunto-sist{background-color: none;height: 800px;}
+      #botão{background-color: none;}
+      .sist-op_1{background-color: none;margin-top: 2em;width: 19em;height: 250px;background-color: none;}
+      .sist-op_2{background-color: none;margin-top: 12em;width: 19em;height: 250px;background-color: none;}
+      
+      #cont-sist{background-color: none;margin-top: 15em;}
+      #botao-sist{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 340px;height: 50px;}
+      
+      #title_banner_1{font-size: 29px;letter-spacing: 1.5px;width: 10em;margin-bottom:0.5em;background-color: none;}
+  
+      
+      
+      .img-sist-op{width: 190px;height: 250px;background-color: none;}
+      .img-sist{width: 100%;}
+      
+  /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
+  .container-footer{margin-bottom: 10px;background-color:black;}
+  #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
+  #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+  }
+  @media screen and (min-width:400px){/*FONT + BTN OK*/
+      /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
+.cont_1{padding-top: 150px;height:1000px;}
+      
+ #title_banner{font-size: 35px;letter-spacing: 5px;background-color: none;}
+      .banner_1-info{background-color: none;margin-left: 0em;margin-top: 2em;width: 23em;height: 200px;background-color: none;}
+      #title_banner_2{font-size: 25px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+      #subtitle_banner{font-size: 20px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
+      #botao-sist-2{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 340px;height: 50px;}
 
+      #mobile{width:420px;}
+      #mobile_div{background-color:none;margin-top: 3em;padding-left: 0em;}
+      
+      /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
+      .cont_2{padding-top: 50px;height:1350px;}
+      .conjunto-sist{background-color: none;height: 800px;}
+      #botão{background-color: none;}
+      .sist-op_1{background-color: none;margin-top: 2em;width: 23em;height: 250px;background-color: none;}
+      .sist-op_2{background-color: none;margin-top: 12em;width: 23em;height: 250px;background-color: none;}
+      
+      #cont-sist{background-color: none;margin-top: 15em;}
+      #botao-sist{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 340px;height: 50px;}
+      
+      #title_banner_1{font-size: 29px;letter-spacing: 1.5px;width: 10em;margin-bottom:0.5em;background-color: none;}
+  
+      
+      
+      .img-sist-op{width: 190px;height: 250px;background-color: none;}
+      .img-sist{width: 100%;}
+      
+  /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
+  .container-footer{margin-bottom: 10px;background-color:black;}
+  #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
+  #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+  }
+  @media screen and (min-width:500px){/*FONT + BTN OK*/
+      /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
+.cont_1{padding-top: 150px;height:1050px;}
+      
+#title_banner{font-size: 35px;letter-spacing: 5px;background-color: none;}
+.banner_1-info{background-color: none;margin-left: 0em;margin-top: 2em;width: 30em;height: 200px;background-color: none;}
+#title_banner_2{font-size: 25px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+#botao-sist-2{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 340px;height: 50px;}
 
-@media screen and (min-width:700px){
-    /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
-    .cont_1{padding-top: 150px;height:1000px;}
-    
-    #title_banner{font-size: 45px;letter-spacing: 5px;}
-    .banner_1-info{background-color: none;margin-left: 0em;margin-top: 2em;width: 35em;height: 200px;background-color: none;}
-    #title_banner_2{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
-    
-    #mobile{width:420px;}
-    #mobile_div{background-color:none;margin-top: 3em;padding-left: 0em;}
-    
-    /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
-    .cont_2{padding-top: 50px;height:1350px;}
-    .conjunto-sist{background-color: none;height: 800px;}
-    #botão{background-color: none;}
-    .sist-op_1{background-color: none;margin-left: -2em;margin-top: 3em;width: 45em;height: 250px;}
-    .sist-op_2{background-color: none;margin-top: 12em;width: 35em;height: 250px;background-color: none;}
-    
-    #cont-sist{background-color: none;margin-top: 15em;}
-    #botao-sist{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 390px;height: 60px;}
-    
-    #title_banner_1{font-size: 35px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
-    #subtitle_banner{font-size: 28px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
-    
-    
-    .img-sist-op{width: 220px;height: 250px;background-color: none;}
-    .img-sist{width: 100%;}
-    
-    /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */ 
-    .container-footer{margin-bottom: 30px;background-color:black;margin-top:0px;}
-    #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
-    #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
-    }
-@media screen and (min-width:800px){
-    /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
-    .cont_1{padding-top: 150px;height:1000px;}
-    
-    #title_banner{font-size: 50px;letter-spacing: 5px;}
-    .banner_1-info{background-color: none;margin-left: 0em;margin-top: 2em;width: 35em;height: 200px;background-color: none;}
-    #title_banner_2{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
-    
-    #mobile{width:420px;}
-    #mobile_div{background-color:none;margin-top: 3em;padding-left: 0em;}
-    
-    /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
-    .cont_2{padding-top: 50px;height:1350px;}
-    .conjunto-sist{background-color: none;height: 800px;}
-    #botão{background-color: none;}
-    .sist-op_1{background-color: none;margin-left: -2em;margin-top: 3em;width: 45em;height: 250px;}
-    .sist-op_2{background-color: none;margin-top: 12em;width: 35em;height: 250px;background-color: none;}
-    
-    #cont-sist{background-color:none;margin-top: 15em;}
-    #botao-sist{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 390px;height: 60px;}
-    
-    #title_banner_1{font-size: 35px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
-    #subtitle_banner{font-size: 28px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
-    
-    
-    .img-sist-op{width: 220px;height: 250px;background-color: none;}
-    .img-sist{width: 100%;}
-    
-    /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */ 
-    .container-footer{margin-bottom: 30px;background-color:black;margin-top:0px;}
-    #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
-    #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
-    }
-@media screen and (min-width:900px){
-    /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
-    .cont_1{padding-top: 150px;height:1000px;}
-    
-    #title_banner{font-size: 50px;letter-spacing: 5px;}
-    .banner_1-info{background-color: none;margin-left: 0em;margin-top: 2em;width: 50em;height: 200px;}
-    #title_banner_2{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
-    
-    #mobile{width:420px;}
-    #mobile_div{background-color:none;margin-top: 3em;padding-left: 0em;}
-    
-    /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
-    .cont_2{padding-top: 50px;height:1350px;}
-    .conjunto-sist{background-color: none;height: 800px;}
-    #botão{background-color: none;}
-    .sist-op_1{background-color: none;margin-left: -2em;margin-top: 3em;width: 45em;height: 250px;}
-    .sist-op_2{background-color: none;margin-top: 12em;width: 35em;height: 250px;background-color: none;}
-    
-    #cont-sist{background-color: none;margin-top: 15em;}
-    #botao-sist{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 390px;height: 60px;}
-    
-    #title_banner_1{font-size: 35px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
-    #subtitle_banner{font-size: 28px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
-    
-    
-    .img-sist-op{width: 220px;height: 250px;background-color: none;}
-    .img-sist{width: 100%;}
-    
-    /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */ 
-    .container-footer{margin-bottom: 30px;background-color:black;margin-top:0px;}
-    #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
-    #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
-    }
-@media screen and (min-width:1100px){
-    /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
-    .cont_1{padding-top: 150px;height:1000px;}
-    
-    #title_banner{font-size: 50px;letter-spacing: 5px;}
-    .banner_1-info{background-color: none;margin-left: 0em;margin-top: 2em;width: 50em;height: 200px;}
-    #title_banner_2{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
-    
-    #mobile{width:420px;}
-    #mobile_div{background-color:none;margin-top: 3em;padding-left: 0em;}
-    
-    /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
-    .cont_2{padding-top: 50px;height:1350px;}
-    .conjunto-sist{background-color: none;height: 800px;}
-    #botão{background-color: none;}
-    .sist-op_1{background-color: none;margin-left: -2em;margin-top: 3em;width: 45em;height: 250px;}
-    .sist-op_2{background-color: none;margin-top: 12em;width: 35em;height: 250px;background-color: none;}
-    
-    #cont-sist{background-color: none;margin-top: 15em;}
-    #botao-sist{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 390px;height: 60px;}
-    
-    #title_banner_1{font-size: 35px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
-    #subtitle_banner{font-size: 28px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
-    
-    
-    .img-sist-op{width: 220px;height: 250px;background-color: none;}
-    .img-sist{width: 100%;}
-    
-    /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */ 
-    .container-footer{margin-bottom: 30px;background-color:black;margin-top:0px;}
-    #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
-    #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
-    }
-@media screen and (min-width:1200px){
-    /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
-    .cont_1{padding-top: 150px;height:1000px;}
-    
-    #title_banner{font-size: 66px;letter-spacing: 5px;}
-    .banner_1-info{background-color: none;margin-left: 0em;margin-top: 15em;width: 50em;height: 200px;}
-    #title_banner_2{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
-    
-    #mobile{width:480px;}
-    #mobile_div{background-color:none;margin-top: 6em;padding-left: 12em;}
-    
-    /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
-    .cont_2{padding-top: 50px;height:1150px;}
-    .conjunto-sist{background-color: none;height: 800px;}
-    #botão{background-color: none;}
-    .sist-op_1{background-color: none;margin-left: -2em;margin-top: 12em;width: 45em;height: 250px;}
-    .sist-op_2{background-color: none;margin-top: 12em;width: 35em;height: 250px;background-color: none;}
-    
-    #cont-sist{background-color: none;margin-top: 0px;}
-    #botao-sist{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 390px;height: 60px;}
-    
-    #title_banner_1{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
-    #subtitle_banner{font-size: 28px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
-    
-    
-    .img-sist-op{width: 220px;height: 250px;background-color: none;}
-    .img-sist{width: 100%;}
-    
-    /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */ 
-    .container-footer{margin-bottom: 30px;background-color:black;margin-top:0px;}
-    #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
-    #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
-    }
-@media screen and (min-width:1400px){
-    /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
-    .cont_1{padding-top: 150px;height:1000px;}
-    
-    #title_banner{font-size: 66px;letter-spacing: 5px;}
-    .banner_1-info{background-color: none;margin-left: 0em;margin-top: 15em;width: 50em;height: 200px;}
-    #title_banner_2{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
-    
-    #mobile{width:480px;}
-    #mobile_div{background-color:none;margin-top: 6em;padding-left: 12em;}
-    
-    /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
-    .cont_2{padding-top: 50px;height:1050px;}
-    .conjunto-sist{background-color: none;height: 800px;}
-    #botão{background-color: none;}
-    .sist-op_1{background-color: none;margin-left: -2em;margin-top: 12em;width: 45em;height: 250px;}
-    .sist-op_2{background-color: none;margin-top: 12em;width: 40em;height: 250px;}
-    
-    #cont-sist{background-color: none;}
-    #botao-sist{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 390px;height: 60px;}
-    
-    #title_banner_1{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
-    #subtitle_banner{font-size: 28px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
-    
-    
-    .img-sist-op{width: 220px;height: 250px;background-color: none;}
-    .img-sist{width: 100%;}
-    
-    /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */ 
-    .container-footer{margin-bottom: 30px;background-color:black;margin-top:0px;}
-    #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
-    #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
-    }
-@media screen and (min-width:1500px){
-    /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
-    .cont_1{padding-top: 150px;height:1000px;}
-    
-    #title_banner{font-size: 66px;letter-spacing: 5px;}
-    .banner_1-info{background-color: none;margin-left: 0em;margin-top: 15em;width: 50em;height: 200px;}
-    #title_banner_2{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
-    
-    #mobile{width:520px;}
-    #mobile_div{background-color:none;margin-top: 6em;padding-left: 12em;}
-    
-    /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
-    .cont_2{padding-top: 50px;height:1150px;}
-    .conjunto-sist{background-color: none;height: 800px;}
-    #botão{background-color: none;}
-    .sist-op_1{background-color: none;margin-left: -2em;margin-top: 12em;width: 50em;height: 250px;}
-    .sist-op_2{background-color: none;margin-top: 12em;width: 45em;height: 250px;}
-    
-    #cont-sist{background-color: none;}
-    #botao-sist{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 390px;height: 60px;}
-    
-    #title_banner_1{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
-    #subtitle_banner{font-size: 32px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
-    
-    
-    .img-sist-op{width: 250px;height: 250px;background-color: none;}
-    .img-sist{width: 100%;}
-    
-    /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */ 
-    .container-footer{margin-bottom: 30px;background-color:black;margin-top:0px;}
-    #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
-    #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
-    }
-    
-@media screen and (min-width:1600px){
+#mobile{width:420px;}
+#mobile_div{background-color:none;margin-top: 5em;padding-left: 0em;}
+      
+      /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
+.cont_2{padding-top: 50px;height:1350px;}
+.conjunto-sist{background-color: none;height: 800px;}
+#botão{background-color: none;}
+.sist-op_1{background-color: none;margin-top: 2em;width: 30em;height: 250px;background-color: none;}
+.sist-op_2{background-color: none;margin-top: 12em;width: 30em;height: 250px;background-color: none;}
+      
+#cont-sist{background-color: none;margin-top: 15em;}
+#botao-sist{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 340px;height: 50px;}
+      
+#title_banner_1{font-size: 29px;letter-spacing: 1.5px;width: 10em;margin-bottom:0.5em;background-color: none;}
+#subtitle_banner{font-size: 25px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
+      
+      
+.img-sist-op{width: 190px;height: 250px;background-color: none;}
+.img-sist{width: 100%;}
+      
+  /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
+  .container-footer{margin-bottom: 10px;background-color:black;}
+  #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
+  #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+  }
+  @media screen and (min-width:600px){/*FONT + BTN OK*/
+      /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
+      .cont_1{padding-top: 150px;height:1000px;}
+      
+      #title_banner{font-size: 35px;letter-spacing: 5px;background-color: none;}
+      .banner_1-info{background-color: none;margin-left: 0em;margin-top: 2em;width: 35em;height: 200px;background-color: none;}
+      #title_banner_2{font-size: 25px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+      #botao-sist-2{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 410px;height: 60px;}
+
+      #mobile{width:420px;}
+      #mobile_div{background-color:none;margin-top: 5em;padding-left: 0em;}
+      
+      /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
+      .cont_2{padding-top: 50px;height:1350px;}
+      .conjunto-sist{background-color: none;height: 800px;}
+      #botão{background-color: none;}
+      .sist-op_1{background-color: none;margin-top: 2em;width: 35em;height: 250px;background-color: none;}
+      .sist-op_2{background-color: none;margin-top: 12em;width: 35em;height: 250px;background-color: none;}
+      
+      #cont-sist{background-color: none;margin-top: 15em;}
+      #botao-sist{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 340px;height: 50px;}
+      
+      #title_banner_1{font-size: 29px;letter-spacing: 1.5px;width: 10em;margin-bottom:0.5em;background-color: none;}
+      #subtitle_banner{font-size: 25px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
+      
+      
+      .img-sist-op{width: 190px;height: 250px;background-color: none;}
+      .img-sist{width: 100%;}
+      
+  /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
+  .container-footer{margin-bottom: 10px;background-color:black;}
+  #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
+  #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+  }
+  @media screen and (min-width:700px){/*FONT + BTN OK*/
+ /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
+ .cont_1{padding-top: 150px;height:1000px;}
+      
+ #title_banner{font-size: 35px;letter-spacing: 5px;}
+ .banner_1-info{background-color: none;margin-left: 0em;margin-top: 2em;width: 35em;height: 200px;background-color: none;}
+ #title_banner_2{font-size: 25px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+ #botao-sist-2{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 410px;height: 60px;}
+
+ #mobile{width:420px;}
+ #mobile_div{background-color:none;margin-top: 5em;padding-left: 0em;}
+ 
+ /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
+ .cont_2{padding-top: 50px;height:1350px;}
+ .conjunto-sist{background-color: none;height: 800px;}
+ #botão{background-color: none;}
+ .sist-op_1{background-color: none;margin-left: -2em;margin-top: 3em;width: 35em;height: 250px;}
+ .sist-op_2{background-color: none;margin-top: 12em;width: 35em;height: 250px;background-color: none;}
+ 
+ #cont-sist{background-color: none;margin-top: 15em;}
+ #botao-sist{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 340px;height: 50px;}
+ 
+ #title_banner_1{font-size: 29px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+ #subtitle_banner{font-size: 25px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
+ 
+ 
+ .img-sist-op{width: 190px;height: 250px;background-color: none;}
+ .img-sist{width: 100%;}
+ 
+/*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
+.container-footer{margin-bottom: 10px;background-color:black;}
+#footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
+#subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+
+  }
+  @media screen and (min-width:800px){
+      /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
+      .cont_1{padding-top: 150px;height:1100px;}
+      
+      #title_banner{font-size: 50px;letter-spacing: 5px;}
+      .banner_1-info{background-color: none;margin-left: 0em;margin-top: 2em;width: 35em;height: 200px;background-color: none;}
+      #title_banner_2{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+      #botao-sist-2{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 410px;height: 60px;}
+
+      #mobile{width:420px;}
+      #mobile_div{background-color:none;margin-top: 9em;padding-left: 0em;}
+      
+      /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
+      .cont_2{padding-top: 50px;height:1350px;}
+      .conjunto-sist{background-color: none;height: 800px;}
+      #botão{background-color: none;}
+      .sist-op_1{background-color: none;margin-left: -2em;margin-top: 3em;width: 45em;height: 250px;}
+      .sist-op_2{background-color: none;margin-top: 12em;width: 35em;height: 250px;background-color: none;}
+      
+      #cont-sist{background-color: none;margin-top: 15em;}
+      #botao-sist{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 390px;height: 60px;}
+      
+      #title_banner_1{font-size: 35px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+      #subtitle_banner{font-size: 28px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
+      
+      
+      .img-sist-op{width: 220px;height: 250px;background-color: none;}
+      .img-sist{width: 100%;}
+      
+     /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
+  .container-footer{margin-bottom: 10px;background-color:black;}
+  #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
+  #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}   
+  }
+  @media screen and (min-width:900px){
+ /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
+ .cont_1{padding-top: 150px;height:1100px;}
+      
+ #title_banner{font-size: 50px;letter-spacing: 5px;}
+ .banner_1-info{background-color: none;margin-left: 0em;margin-top: 2em;width: 50em;height: 200px;}
+ #title_banner_2{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+ #botao-sist-2{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 410px;height: 60px;}
+
+ #mobile{width:420px;}
+ #mobile_div{background-color:none;margin-top: 8em;padding-left: 0em;}
+ 
+ /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
+ .cont_2{padding-top: 50px;height:1350px;}
+ .conjunto-sist{background-color: none;height: 800px;}
+ #botão{background-color: none;}
+ .sist-op_1{background-color: none;margin-left: -2em;margin-top: 3em;width: 45em;height: 250px;}
+ .sist-op_2{background-color: none;margin-top: 12em;width: 35em;height: 250px;background-color: none;}
+ 
+ #cont-sist{background-color: none;margin-top: 15em;}
+ #botao-sist{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 390px;height: 60px;}
+ 
+ #title_banner_1{font-size: 35px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+ #subtitle_banner{font-size: 28px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
+ 
+ 
+ .img-sist-op{width: 220px;height: 250px;background-color: none;}
+ .img-sist{width: 100%;}
+ 
+ /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
+.container-footer{margin-bottom: 10px;background-color:black;}
+#footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
+#subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}   
+  }
+  @media screen and (min-width:1100px){
+      /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
+      .cont_1{padding-top: 150px;height:1000px;}
+      
+      #title_banner{font-size: 50px;letter-spacing: 5px;}
+      .banner_1-info{background-color: none;margin-left: 0em;margin-top: 2em;width: 50em;height: 200px;}
+      #title_banner_2{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+      
+      #mobile{width:420px;}
+      #mobile_div{background-color:none;margin-top: 7em;padding-left: 0em;}
+      
+      /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
+      .cont_2{padding-top: 50px;height:1350px;}
+      .conjunto-sist{background-color: none;height: 800px;}
+      #botão{background-color: none;}
+      .sist-op_1{background-color: none;margin-left: -2em;margin-top: 3em;width: 45em;height: 250px;}
+      .sist-op_2{background-color: none;margin-top: 12em;width: 35em;height: 250px;background-color: none;}
+      
+      #cont-sist{background-color: none;margin-top: 15em;}
+      #botao-sist{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 390px;height: 60px;}
+      #botao-sist-2{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 410px;height: 60px;}
+
+      #title_banner_1{font-size: 35px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+      #subtitle_banner{font-size: 28px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
+      
+      
+      .img-sist-op{width: 220px;height: 250px;background-color: none;}
+      .img-sist{width: 100%;}
+      
+      /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */ 
+      .container-footer{margin-bottom: 30px;background-color:black;margin-top:0px;}
+      #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
+      #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+  }
+  @media screen and (min-width:1200px){
+      /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
+      .cont_1{padding-top: 150px;height:1000px;}
+      
+      #title_banner{font-size: 56px;letter-spacing: 5px;}
+      .banner_1-info{background-color: none;margin-left: 0em;margin-top: 15em;width: 50em;height: 200px;}
+      #title_banner_2{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+      
+      #mobile{width:480px;}
+      #mobile_div{background-color:none;margin-top: 6em;padding-left: 12em;}
+      
+      /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
+      .cont_2{padding-top: 50px;height:1150px;}
+      .conjunto-sist{background-color: none;height: 800px;}
+      #botão{background-color: none;}
+      .sist-op_1{background-color: none;margin-left: -2em;margin-top: 12em;width: 45em;height: 250px;}
+      .sist-op_2{background-color: none;margin-top: 12em;width: 35em;height: 250px;background-color: none;}
+      
+      #cont-sist{background-color: none;margin-top: 0px;}
+      #botao-sist{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 390px;height: 60px;}
+      #botao-sist-2{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 410px;height: 60px;}
+
+      #title_banner_1{font-size: 35px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+      #subtitle_banner{font-size: 25px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
+      
+      
+      .img-sist-op{width: 220px;height: 250px;background-color: none;}
+      .img-sist{width: 100%;}
+      
+      /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */ 
+      .container-footer{margin-bottom: 30px;background-color:black;margin-top:0px;}
+      #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
+      #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+  }
+  @media screen and (min-width:1400px){
+      /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
+.cont_1{padding-top: 150px;height:1000px;}
+      
+ #title_banner{font-size: 66px;letter-spacing: 5px;}
+.banner_1-info{background-color: none;margin-left: 0em;margin-top: 15em;width: 50em;height: 200px;}
+ #title_banner_2{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+      
+#mobile{width:480px;}
+#mobile_div{background-color:none;margin-top: 6em;padding-left: 12em;}
+      
+/*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
+ .cont_2{padding-top: 50px;height:1050px;}
+.conjunto-sist{background-color: none;height: 800px;}
+#botão{background-color: none;}
+.sist-op_1{background-color: none;margin-left: -2em;margin-top: 12em;width: 45em;height: 250px;}
+.sist-op_2{background-color: none;margin-top: 12em;width: 40em;height: 250px;}
+      
+#cont-sist{background-color: cornsilk;}
+ #botao-sist{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 390px;height: 60px;}
+ #botao-sist-2{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 410px;height: 60px;}
+     
+#title_banner_1{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+#subtitle_banner{font-size: 28px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
+      
+      
+.img-sist-op{width: 220px;height: 250px;background-color: none;}
+.img-sist{width: 100%;}
+      
+ /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */ 
+.container-footer{margin-bottom: 30px;background-color:black;margin-top:0px;}
+#footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
+#subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+  }
+  @media screen and (min-width:1500px){
 /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
 .cont_1{padding-top: 150px;height:1000px;}
 
-#title_banner{font-size: 66px;letter-spacing: 5px;}
-.banner_1-info{background-color: none;margin-left: 15em;margin-top: 15em;width: 50em;height: 200px;}
+#title_banner{font-size: 66px;letter-spacing: 5px;background-color: none;}
+.banner_1-info{background-color: none;margin-left: 5em;margin-top: 15em;width: 50em;height: 200px;}
 #title_banner_2{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+#subtitle_banner{font-size: 32px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
+#botao-sist-2{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 410px;height: 60px;}
+
 
 #mobile{width:520px;}
-#mobile_div{background-color:none;margin-top: 6em;padding-left: 12em;}
+#mobile_div{background-color:none;margin-top: 6em;padding-left:5em;width: 25em;height: 550px;}
+
+
 
 /*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
 .cont_2{padding-top: 50px;height:1150px;}
@@ -278,11 +438,10 @@ ul{list-style: none;}
 .sist-op_1{background-color: none;margin-left: -2em;margin-top: 12em;width: 50em;height: 250px;}
 .sist-op_2{background-color: none;margin-top: 12em;width: 50em;height: 250px;}
 
-#cont-sist{background-color: none;}
+#cont-sist{background-color: NONE;}
 #botao-sist{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 390px;height: 60px;}
 
 #title_banner_1{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
-#subtitle_banner{font-size: 32px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
 
 
 .img-sist-op{width: 250px;height: 250px;background-color: none;}
@@ -291,7 +450,44 @@ ul{list-style: none;}
 /*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */ 
 .container-footer{margin-bottom: 30px;background-color:black;margin-top:0px;}
 #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
-#subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+#subtitle_footer{font-size: 35px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+  }
+@media screen and (min-width:1600px){
+/*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
+.cont_1{padding-top: 150px;height:1000px;}
+
+#title_banner{font-size: 66px;letter-spacing: 5px;background-color: none;}
+.banner_1-info{background-color: none;margin-left: 5em;margin-top: 15em;width: 50em;height: 200px;}
+#title_banner_2{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+#subtitle_banner{font-size: 32px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
+#botao-sist-2{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 410px;height: 60px;}
+
+
+#mobile{width:520px;}
+#mobile_div{background-color:none;margin-top: 6em;padding-left:0px;width: 25em;height: 550px;}
+
+
+
+/*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
+.cont_2{padding-top: 50px;height:1150px;}
+.conjunto-sist{background-color: none;height: 800px;}
+#botão{background-color: none;}
+.sist-op_1{background-color: none;margin-left: -2em;margin-top: 12em;width: 50em;height: 250px;}
+.sist-op_2{background-color: none;margin-top: 12em;width: 50em;height: 250px;}
+
+#cont-sist{background-color: NONE;}
+#botao-sist{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 390px;height: 60px;}
+
+#title_banner_1{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+
+
+.img-sist-op{width: 250px;height: 250px;background-color: none;}
+.img-sist{width: 100%;}
+
+/*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */ 
+.container-footer{margin-bottom: 30px;background-color:black;margin-top:0px;}
+#footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
+#subtitle_footer{font-size: 35px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 }
 
 
