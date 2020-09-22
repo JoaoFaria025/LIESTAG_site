@@ -9,46 +9,52 @@ ul{list-style: none;}
 .menu:hover{font-size:22px;color: white; letter-spacing: 1.5px;font-weight: 600;}
 .quemsomos_2{padding-bottom:220px;}
 
-/*TESTE
 
-.quemsomos_1{background-color: tomato;}
-.quemsomos_2{background-color: violet;}
-.cont_3{background-color: yellowgreen;}
-.contato{background-color: aqua;}
 
-.container-footer{background-color: blue;}
 /*     ✱✱✱✱✱✱✱SECTION NAV ✱✱✱✱✱✱✱      */
 #edit{background-color: black;padding: 15px;}
 #botao{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 160px;}
+
 .contato-nav{ margin-left: 150px;}
 #aba{color: yellow;}
 
+/*TESTE
+.cont_1{background-color: red;}
+.cont_2{background-color: blue;}
+/**/
 
+@media screen and (min-width:1600px){
 /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
-.cont_1{background-color:;padding-top: 320px;height: 850px;}
+.cont_1{padding-top: 150px;height:1000px;}
+
 #title_banner{font-size: 66px;letter-spacing: 5px;}
-#subtitle_banner{font-size: 33px;margin-left: 27em;}
-#info_banner{font-size:38px;padding-top: 175px;}
-#arrow{width: 15px;padding-top: 15px;-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-transition-duration: 0.2s;
-	transition-duration: 0.2s;
-	-webkit-transition-property: box-shadow, transform;
-	transition-property: box-shadow, transform;}
-#arrow:hover{	box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.2);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);}
-#arrow_1{margin-left: 0em;}
-#sociais{width:60px;padding-top: 15px;float:right;}
-#cont-arrow{display: inline;}
-/*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
-.container-footer{margin-bottom: 30px;background-color:black;}
+.banner_1-info{background-color: none;margin-left: 15em;margin-top: 15em;width: 50em;height: 200px;}
+#title_banner_2{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+
+#mobile{width:520px;}
+#mobile_div{background-color:none;margin-top: 6em;padding-left: 12em;}
+
+/*      ✱✱✱✱✱✱✱SECTION 2 - BANNER ✱✱✱✱✱✱✱    */
+.cont_2{padding-top: 50px;height:1150px;}
+.conjunto-sist{background-color: none;height: 800px;}
+#botão{background-color: none;}
+.sist-op_1{background-color: none;margin-left: -2em;margin-top: 12em;width: 50em;height: 250px;}
+.sist-op_2{background-color: none;margin-top: 12em;width: 50em;height: 250px;}
+
+#botao-sist{font-size:25px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 390px;height: 60px;}
+
+#title_banner_1{font-size: 40px;letter-spacing: 1.5px;width: 100%;margin-bottom:0.5em;}
+#subtitle_banner{font-size: 32px;margin-top: 0em;letter-spacing: 1.5px;width: 18em;padding-bottom: 2em;}
+
+
+.img-sist-op{width: 250px;height: 250px;background-color: none;}
+.img-sist{width: 100%;}
+
+/*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */ 
+.container-footer{margin-bottom: 30px;background-color:black;margin-top:0px;}
 #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+}
 
 
 
