@@ -225,7 +225,7 @@ textarea {resize: none;}
 .contato-nav{ margin-top:15px;}
 
 /*SECTION 1 - BANNER*/
-#home{background-color: ;width: 100%;}
+#home{background-color:black ;width: 100%;}
 .cont_1{background-color:black;padding-top: 180px;height: 620px;}
 #title_banner{font-size: 36px;letter-spacing: 7px;}
 #subtitle_banner{font-size: 20px;margin-left: 1em;padding-top: 5px;}
@@ -885,8 +885,7 @@ textarea {resize: none;}
 }
 
 
-@media screen and (min-width:760px)
-{	
+@media screen and (min-width:760px){	
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - SERVIÇOS ✱✱✱✱✱✱✱     */ 
 #title_quemsomos{font-size:52px;}  
@@ -951,8 +950,7 @@ textarea {resize: none;}
 }
  
 
- @media screen and (min-width:850px)
- {
+ @media screen and (min-width:850px){
 #title_quemsomos_1{font-size: 50px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 3 - MISSÃO VISÃO E VALORES ✱✱✱✱✱✱✱     */   
@@ -1992,6 +1990,8 @@ textarea {resize: none;}
 .js-unhighlight-label {
 	color: #999 
 }
+
+/*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */ 
 
 .container-footer{margin-bottom: 30px;background-color:black;margin-top:0px;}
 
