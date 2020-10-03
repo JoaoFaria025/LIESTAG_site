@@ -214,6 +214,7 @@ textarea {resize: none;}
 #footer_logo{width:220px;padding: 11px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 15px;padding-bottom: 7px;margin-top:0px;}
 
+.logo{margin-right: 5px;width: 29px;}
 
 }
 
@@ -1755,6 +1756,9 @@ textarea {resize: none;}
 
 .container-footer{margin-top:0px;}
 
+}
+@media screen and (min-width:1200px){
+	.logo{margin-right: 15px;width: 29px;}
 }
 
 
