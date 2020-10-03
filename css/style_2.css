@@ -72,6 +72,7 @@ html {scroll-behavior: smooth;}
   .container-footer{margin-bottom: 10px;background-color:black;}
   #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
   #subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+  .logo{margin-right: 5px;width: 29px;}
   }
 @media screen and (min-width:375px){/*FONT + BTN OK*/
       /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
@@ -389,6 +390,7 @@ html {scroll-behavior: smooth;}
       .container-footer{margin-bottom: 30px;background-color:black;margin-top:0px;}
       #footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
       #subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+
   }
   @media screen and (min-width:1400px){
       /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
