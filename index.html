@@ -78,9 +78,11 @@ animation: snow 10s linear infinite;
 </div>
 </body>
 <script>
+
 setTimeout(function() {
-    window.location.href = "https://meet.jit.si/liestag";
-}, 5000);
+  document.getElementById("text").innerHTML = '<iframe allow="camera; microphone; fullscreen; display-capture" src="https://meet.jit.si/liestag" style="width:1300px;height:900px;margin-top:-18em;margin-bottom:50px;border-radius:55px;border:white 3px solid;"></iframe>';
+},5000);
+
 </script>
 </html>
  
