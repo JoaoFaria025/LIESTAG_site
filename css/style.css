@@ -928,7 +928,7 @@ textarea {resize: none;}
 @media screen and (min-width: 1500px){
 
 /*     ✱✱✱✱✱✱✱SECTION 2 - HISTORIA ✱✱✱✱✱✱✱      */
-.cont_2{height: 650px;padding: 20px;}
+.cont_2{height: 850px;padding-top: 220px;}
 .cont_2 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;}
 .cont_2 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;}
 .cont_2 span{color: yellow;font-size: 24px;}
