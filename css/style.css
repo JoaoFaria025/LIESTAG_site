@@ -15,6 +15,7 @@ html {scroll-behavior: smooth;}
 .cont_6{background-color: purple;}
 .cont_7{background-color:pink;}
 .cont_8{background-color: brown	;}
+.cont_9{background-color: coral;}
 .container-footer{background-color: aquamarine;}
 .texto-hist{background-color: pink}
 /*MENU*/
@@ -27,6 +28,7 @@ html {scroll-behavior: smooth;}
 /*     ✱✱✱✱✱✱✱SECTION NAV ✱✱✱✱✱✱✱      */
 #edit{background-color: black;padding: 15px;}
 #botao{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 160px;}
+#botao_app{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 310px;margin:50px 50px 50px 0px;}
 .contato-nav{ margin-left: 150px;}
 .menu.active{color:yellow;}
 
@@ -155,6 +157,15 @@ textarea {resize: none;}
 .container-footer{margin-bottom: 10px;}
 #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
 #subtitle_footer{font-size: 15px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+
+/*     ✱✱✱✱✱✱✱SECTION NEW - ESTAGIAAPP ✱✱✱✱✱✱✱     */   
+.cont_9{height: 720px;padding-top: 0px;padding-left: 50px;}
+.cont_9 h2{color:white;font-weight: 600;font-size: 48px;letter-spacing:4px;}
+.cont_9 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 18px;text-transform: uppercase;}
+.img-app{width: 100px;margin-left: 5%;}
+#botao_app{font-size:18px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 250px;margin:50px 50px 50px 0px;}
+#app_1{order:1;}
+#app_2{order:2;}
 }
 
 @media screen and (min-width:375px){
@@ -265,6 +276,14 @@ textarea {resize: none;}
 .js-unhighlight-label {
 	color: #999;
 }
+/*     ✱✱✱✱✱✱✱SECTION NEW - ESTAGIAAPP ✱✱✱✱✱✱✱     */   
+.cont_9{height: 770px;padding-top: 0px;padding-left: 50px;}
+.cont_9 h2{color:white;font-weight: 600;font-size: 48px;letter-spacing:4px;}
+.cont_9 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 18px;text-transform: uppercase;}
+.img-app{width: 120px;margin-left: 5%;}
+#botao_app{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 280px;margin:50px 50px 50px 0px;}
+#app_1{order:1;}
+#app_2{order:2;}
 }
 
 
@@ -377,6 +396,14 @@ textarea {resize: none;}
 .js-unhighlight-label {
 	color: #999;
 }
+
+/*     ✱✱✱✱✱✱✱SECTION NEW - ESTAGIAAPP ✱✱✱✱✱✱✱     */   
+.cont_9{height: 760px;padding-top: 0px;padding-left: 50px;}
+.cont_9 h2{color:white;font-weight: 600;font-size: 48px;letter-spacing:4px;}
+.cont_9 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 18px;text-transform: uppercase;}
+.img-app{width: 130px;}
+#app_1{order:1;}
+#app_2{order:2;}
 }
 
 @media screen and (min-width:480px){
@@ -446,6 +473,14 @@ textarea {resize: none;}
 #serv_2{order:2;}
 #serv_3{order:3;}
 .serv_text{margin-top: 55px;}
+
+/*     ✱✱✱✱✱✱✱SECTION NEW - ESTAGIAAPP ✱✱✱✱✱✱✱     */   
+.cont_9{height: 770px;padding-top: 80px;padding-left: 50px;}
+.cont_9 h2{color:white;font-weight: 600;font-size: 48px;letter-spacing:4px;}
+.cont_9 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 18px;text-transform: uppercase;}
+.img-app{width: 150px;}
+#app_1{order:1;}
+#app_2{order:2;}
 
 /*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱      */
 .cont_8{height:820px;padding-left: 50px;padding-top: 100px;}
@@ -551,6 +586,14 @@ textarea {resize: none;}
 #serv_2{order:2;}
 #serv_3{order:3;}
 .serv_text{margin-top: 55px;}
+
+/*     ✱✱✱✱✱✱✱SECTION NEW - ESTAGIAAPP ✱✱✱✱✱✱✱     */   
+.cont_9{height: 760px;padding-top: 80px;padding-left: 50px;}
+.cont_9 h2{color:white;font-weight: 600;font-size: 48px;letter-spacing:4px;}
+.cont_9 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 18px;text-transform: uppercase;}
+.img-app{width: 150px;margin-left:10%;}
+#app_1{order:1;}
+#app_2{order:2;}
 
 /*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱      */
 .cont_8{height:770px;padding-left: 50px;padding-top: 100px;}
@@ -663,6 +706,14 @@ textarea {resize: none;}
 #serv_2{order:2;}
 #serv_3{order:3;}
 .serv_text{margin-top: 55px;}
+
+/*     ✱✱✱✱✱✱✱SECTION NEW - ESTAGIAAPP ✱✱✱✱✱✱✱     */   
+.cont_9{height: 760px;padding-top: 80px;padding-left: 50px;}
+.cont_9 h2{color:white;font-weight: 600;font-size: 55px;letter-spacing:4px;}
+.cont_9 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;text-transform: uppercase;}
+.img-app{width: 155px;margin-left: 15%;}
+#app_1{order:1;}
+#app_2{order:2;}
 
 /*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱      */
 .cont_8{height:820px;padding-left: 50px;padding-top: 100px;}
@@ -820,6 +871,15 @@ textarea {resize: none;}
 	color: #999 
 }
 
+/*     ✱✱✱✱✱✱✱SECTION NEW - ESTAGIAAPP ✱✱✱✱✱✱✱     */   
+.cont_9{height: 880px;padding-top: 80px;padding-left: 50px;}
+.cont_9 h2{color:white;font-weight: 600;font-size: 55px;letter-spacing:4px;}
+.cont_9 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;text-transform: uppercase;}
+.img-app{width: 200px;margin-left: 18%;}
+#app_1{order:1;}
+#app_2{order:2;}
+
+
 /*     ✱✱✱✱✱✱✱SECTION 9 - FOOTER ✱✱✱✱✱✱✱     */   
 .container-footer{margin-bottom: 10px;}
 #footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
@@ -920,6 +980,14 @@ textarea {resize: none;}
 .info_contato{margin-top:35px;text-align:center;background-color: #5e9bfc;margin-left: -10%;}
 .info_contato h4{letter-spacing: 2px;}
 
+/*     ✱✱✱✱✱✱✱SECTION NEW - ESTAGIAAPP ✱✱✱✱✱✱✱     */   
+.cont_9{height: 550px;padding-top: 80px;padding-left: 50px;}
+.cont_9 h2{color:white;font-weight: 600;font-size: 55px;letter-spacing:4px;}
+.cont_9 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;text-transform: uppercase;}
+.img-app{width: 190px;margin-left: 10%;}
+#app_1{order:2;}
+#app_2{order:1;}
+
 /*     ✱✱✱✱✱✱✱SECTION 9 - FOOTER ✱✱✱✱✱✱✱     */ 
 .container-footer{margin-top:0px;}
 #footer_logo{width:240px;padding: 11px;margin-bottom: 11px;}
@@ -934,6 +1002,14 @@ textarea {resize: none;}
 .cont_2 span{color: yellow;font-size: 24px;}
 .texto-hist{color: white;font-size: 24px;text-align: left;margin-top: 60px;}
 #iframe{border: 5px solid yellow;}
+
+/*     ✱✱✱✱✱✱✱SECTION NEW - ESTAGIAAPP ✱✱✱✱✱✱✱     */   
+.cont_9{height: 550px;padding-top: 80px;padding-left: 50px;}
+.cont_9 h2{color:white;font-weight: 600;font-size: 55px;letter-spacing:4px;}
+.cont_9 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;text-transform: uppercase;}
+.img-app{width: 200px;margin-left: 10%;}
+#app_1{order:2;}
+#app_2{order:1;}
 
 /*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱     */   
 #contato{height: 750px;margin-bottom: 0px;margin-top:0px;}
